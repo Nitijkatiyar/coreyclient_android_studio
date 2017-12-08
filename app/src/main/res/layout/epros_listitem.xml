@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/epro_question"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Test"
+            android:textColor="@color/li_text_color_main"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/epro_options"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/epro_question"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Test"
+            android:textColor="@color/settings_background_dark"
+            android:textSize="@dimen/message_topic_text_size" />
+
+        <TextView
+            android:id="@+id/epro_frequency"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/epro_options"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Test"
+            android:textColor="@color/settings_background_dark"
+            android:textSize="@dimen/message_topic_text_size" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/epro_time"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/epro_frequency"
+            android:layout_toRightOf="@+id/view"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Test"
+            android:textColor="@color/settings_background_dark"
+            android:textSize="@dimen/message_topic_text_size" />
+
+
+        <Button
+            android:id="@+id/intsantButtonVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/epro_frequency"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/whiteborder_transparent_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:text="Instant"
+            android:focusable="false"
+            android:textColor="@color/settings_background_dark"
+            android:textSize="@dimen/message_topic_text_size" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

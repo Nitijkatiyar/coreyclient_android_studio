@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parentlayout"
+    android:scrollbars="vertical">
+    
+    <include layout="@layout/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+    />
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:id="@+id/linearlayout1" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/header" android:background="@color/layout_background">
+        <ImageView android:layout_width="wrap_content" 
+            android:src="@drawable/contact"
+            android:id="@+id/profile_pic" 
+            android:layout_height="90dp">
+        </ImageView>
+        <RelativeLayout android:layout_width="wrap_content"
+            android:id="@+id/linearLayout2" 
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:layout_toRightOf="@id/profile_pic">
+            <RelativeLayout android:id="@+id/linearlayout3"
+                android:layout_height="wrap_content" 
+                android:layout_width="264dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:text="TextView"
+                    android:id="@+id/first_name" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:text="TextView"
+                    android:id="@+id/last_name" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:paddingLeft="6dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/first_name">
+                </TextView>
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="TextView"
+                android:id="@+id/headline" 
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/linearlayout3">
+            </TextView>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="TextView"
+                android:id="@+id/location" 
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/headline">
+            </TextView>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="@string/view_linkedin_profile"
+                android:id="@+id/profile_link" 
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:layout_below="@id/location"
+                android:linksClickable="true"
+                android:textColor="#3399FF"
+                android:textColorLink="#6600CC">
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/LinkedInList"
+        android:layout_below="@id/linearlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:cacheColorHint="#fff"
+        android:clickable="true"
+        android:fastScrollEnabled="false"
+        android:smoothScrollbar="true" >
+    </ListView> 
+</RelativeLayout>

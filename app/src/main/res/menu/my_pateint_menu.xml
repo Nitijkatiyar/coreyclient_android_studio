@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/pateintfilter"
+        android:title="Refresh"/>
+
+<!--
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/fontsizeicon"
+        android:title="Refresh"/>-->
+
+</menu> 

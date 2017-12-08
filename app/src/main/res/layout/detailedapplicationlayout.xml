@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="48dp"
+            android:layout_weight="0.75"
+            android:ems="10">
+
+            <requestFocus />
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/header"
+        android:background="@color/light_gray"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:visibility="visible">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row0dot"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/row0"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imagedot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/row0dot"
+        android:background="@color/light_gray">
+
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/location"
+            android:background="#f2f2f2"
+            android:cacheColorHint="#fff"
+            android:clickable="true"
+            android:descendantFocusability="afterDescendants"
+            android:divider="@null"
+            android:fastScrollEnabled="false"
+            android:smoothScrollbar="true"></ListView>
+
+        <TextView
+            android:id="@+id/empty"
+            style="@style/TransparentButtonBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/li_padding_left"
+            android:paddingRight="@dimen/li_padding_right"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/search"
+            android:layout_marginLeft="@dimen/ctrl_margin_left"
+            android:layout_marginRight="@dimen/ctrl_margin_right"
+            android:text="@string/pcp_location"
+            android:textSize="@dimen/btn_text_size"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/btn_gap"
+            android:layout_marginLeft="@dimen/ctrl_margin_left"
+            android:layout_marginRight="@dimen/ctrl_margin_right"
+            android:text="@string/pcp_search"
+            android:textSize="@dimen/btn_text_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dlg_margin_top"
+    android:paddingLeft="@dimen/dlg_margin_left"
+    android:paddingRight="@dimen/dlg_margin_right"
+    android:paddingBottom="@dimen/dlg_margin_bottom"
+>
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pf_dlg_msg"
+        android:textSize="@dimen/normal_text_size"
+    />
+
+    <!-- calendar option -->
+    <CheckBox
+        android:id="@+id/calendar_checkbox"
+        android:layout_below="@id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/text_gap"
+        android:layout_marginRight="@dimen/text_gap"
+        android:checked="true"
+        android:enabled="false"
+    />
+    <TextView
+        android:id="@+id/calendar_label"
+        android:layout_below="@id/msg"
+        android:layout_toRightOf="@id/calendar_checkbox"
+        android:layout_alignBottom="@id/calendar_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pf_dlg_calendar"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_marginTop="@dimen/text_gap"
+    />
+
+    <!-- contacts option -->
+    <CheckBox
+        android:id="@+id/contacts_checkbox"
+        android:layout_below="@id/calendar_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/text_gap"
+        android:layout_marginRight="@dimen/text_gap"
+        android:checked="true"
+        android:enabled="false"
+    />
+    <TextView
+        android:id="@+id/contacts_label"
+        android:layout_below="@id/calendar_label"
+        android:layout_toRightOf="@id/contacts_checkbox"
+        android:layout_alignBottom="@id/contacts_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pf_dlg_contacts"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_marginTop="@dimen/text_gap"
+    />
+
+    <!-- location option -->
+    <CheckBox
+        android:id="@+id/location_checkbox"
+        android:layout_below="@id/contacts_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/text_gap"
+        android:layout_marginRight="@dimen/text_gap"
+    />
+    <TextView
+        android:id="@+id/location_label"
+        android:layout_below="@id/contacts_label"
+        android:layout_toRightOf="@id/location_checkbox"
+        android:layout_alignBottom="@id/location_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pf_dlg_location"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_marginTop="@dimen/text_gap"
+    />
+
+    <!-- phone calls option -->
+    <CheckBox
+        android:id="@+id/phone_checkbox"
+        android:layout_below="@id/location_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/text_gap"
+        android:layout_marginRight="@dimen/text_gap"
+    />
+    <TextView
+        android:id="@+id/phone_label"
+        android:layout_below="@id/location_label"
+        android:layout_toRightOf="@id/phone_checkbox"
+        android:layout_alignBottom="@id/phone_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pf_dlg_phonecalls"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_marginTop="@dimen/text_gap"
+    />
+</RelativeLayout>

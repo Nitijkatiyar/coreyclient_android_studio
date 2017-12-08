@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  App property id. -->
+    <string name="ga_trackingId">UA-72845421-3</string>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <string name="com.example.SomeActivity">
+        SomeActivity
+    </string>
+
+    <!-- Timeout after stopping till new session start -->
+    <integer name="ga_sessionTimeout">600</integer>
+
+    <!-- Report uncaught exceptions -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+</resources>

@@ -1,0 +1,1474 @@
+{
+    "Result": {
+        "Code": 0,
+        "Message": "SUCCESS"
+    },
+    "Data": {
+        "Options": {
+            "Colors": [
+                "f7ba7e",
+                "f2db94",
+                "008895",
+                "76c0ef",
+                "cddbf2",
+                "ffff99",
+                "d9c585",
+                "005159",
+                "5e99bf"
+            ],
+            "XAxisTitle": "Days",
+            "YAxisTitle": "Count",
+            "Title": "Activity",
+            "Type": "VBar"
+        },
+        "GraphData": {
+            "Values": [
+                {
+                    "RowName": "04-29",
+                    "RowValues": [
+                        {
+                            "Column": "FlightsClimbed",
+                            "Value": "1000"
+                        },
+                        {
+                            "Column": "StepCount",
+                            "Value": "1541"
+                        }
+                    ]
+                },{
+                    "RowName": "04-30",
+                    "RowValues": [
+                        {
+                            "Column": "FlightsClimbed",
+                            "Value": "700"
+                        },
+                        {
+                            "Column": "StepCount",
+                            "Value": "1200"
+                        }
+                    ]
+                },{
+                    "RowName": "05-01",
+                    "RowValues": [
+                        {
+                            "Column": "FlightsClimbed",
+                            "Value": "900"
+                        },
+                        {
+                            "Column": "StepCount",
+                            "Value": "1700"
+                        }
+                    ]
+                },{
+                    "RowName": "05-02",
+                    "RowValues": [
+                        {
+                            "Column": "FlightsClimbed",
+                            "Value": "550"
+                        },
+                        {
+                            "Column": "StepCount",
+                            "Value": "890"
+                        }
+                    ]
+                }
+            ]
+        },
+        "DetailedGraphData": {
+            "Values": [
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1903"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-02-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-02-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-03-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1497"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-03-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1601"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-04-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-05-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1487"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-05-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-06-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2053"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-06-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1386"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-07-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-08-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3408"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-08-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "562"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-09-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3412"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-10-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-10-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "957"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-11-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "713"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-12-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "15"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-13-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3971"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-13-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4586"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-14-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "7"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-14-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-15-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2028"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-15-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-16-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1891"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-16-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-17-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1758"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-17-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "5"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-18-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2103"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-18-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "970"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-19-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-19-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2758"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-20-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-20-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "608"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-21-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-21-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "5"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-22-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2245"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-22-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "3274"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-23-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-23-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "6"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-24-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4829"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-24-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1064"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-25-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "18"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-26-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "7677"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-26-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "8630"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-27-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "FlightsClimbed"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "4"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-27-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "2757"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-28-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                },
+                {
+                    "RowName": "",
+                    "RowValues": [
+                        {
+                            "Column": "Patient ID",
+                            "Value": "9876543355"
+                        },
+                        {
+                            "Column": "Patient Name",
+                            "Value": "A"
+                        },
+                        {
+                            "Column": "Activity Type",
+                            "Value": "StepCount"
+                        },
+                        {
+                            "Column": "Value",
+                            "Value": "1541"
+                        },
+                        {
+                            "Column": "Activity Date Time",
+                            "Value": "04-29-2016 11:30"
+                        },
+                        {
+                            "Column": "Source",
+                            "Value": "iPhone"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

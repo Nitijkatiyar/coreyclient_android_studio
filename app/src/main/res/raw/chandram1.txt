@@ -1,0 +1,3687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMN Version="0.1">
+	<Messages count="2">
+		<Message id="1" Purged="NO" time="7/13/2011 2:05:47 PM"
+			subject="Citrix Systems" MeetingStart="7/13/2011 2:20:00 PM"
+			MeetingEnd="7/13/2011 2:50:00 PM">
+			<Application name="LinkedIn" />
+			<Application name="Salesforce">
+				<Object name="Account">
+					<Field name="Name" displayText="Name">Citrix Systems</Field>
+					<Field name="BillingCity" displayText="BillingCity">Santa Clara</Field>
+					<Field name="BillingState" displayText="BillingState">CA</Field>
+					<Field name="BillingCountry" displayText="BillingCountry">USA</Field>
+					<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					<Object name="Case">
+						<Field name="CreatedDate" displayText="CreatedDate">7/7/2011 2:16:18 PM
+						</Field>
+						<Field name="CaseNumber" displayText="CaseNumber">00001039</Field>
+						<Field name="Description" displayText="Description">Improve Receiver
+							adoption on smartphones and tablets by Real Time Delivery of
+							Context Based Content</Field>
+						<Field name="Status" displayText="Status">Escalated</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Hong Lu</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Michael Cristinziano</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Sumit Dhawan</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Thorpe</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Sunil Potti</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Wes Wasson</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Templeton</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Andy Cohen</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Martines</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Ed Loftus</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Steve Shah</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Abhishek Chauhan</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Stefan Johansson</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Klaus Oestermann</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Christer Stafferod</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Rajiv Sinha</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">John McIntyre</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Martin Duursma</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Michael Harries</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Citrix Receiver</Field>
+						<Field name="Description" displayText="Description">Meet with Sumit with
+							Value Proposition to Embed Sales Crystal as part of Receiver
+						</Field>
+						<Field name="StageName" displayText="StageName">Qualification</Field>
+						<Field name="Probability" displayText="Probability">60</Field>
+						<Field name="Amount" displayText="Amount">3000000</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Mobile security</Field>
+						<Field name="StageName" displayText="StageName">Qualification</Field>
+						<Field name="Probability" displayText="Probability">10</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Mobile Backhaul Caching
+						</Field>
+						<Field name="StageName" displayText="StageName">Needs Analysis</Field>
+						<Field name="Probability" displayText="Probability">20</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Startup Accelerator</Field>
+						<Field name="StageName" displayText="StageName">Value Proposition
+						</Field>
+						<Field name="Probability" displayText="Probability">50</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Sales Crystal Trial</Field>
+						<Field name="Description" displayText="Description">Trial of Sales Crystal
+							by Citrix Execs &amp; Field Sales</Field>
+						<Field name="StageName" displayText="StageName">Id. Decision Makers
+						</Field>
+						<Field name="Probability" displayText="Probability">99</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+				</Object>
+			</Application>
+			<Application name="Outlook">
+				<Object name="Calendar">
+					<Field name="Subject">Citrix Systems</Field>
+					<Field name="Account">Citrix Systems</Field>
+					<Field name="StartTime">7/13/2011 2:20:00 PM</Field>
+					<Field name="EndTime">7/13/2011 2:50:00 PM</Field>
+					<Field name="Location">(888) 372-8921 Participant: 545204</Field>
+					<Field name="Attendee">Chandra Sekhar Tekwani; Izzet Ergas; Martin
+						Kelly; Michael Harries; Paul Martine; Michael Emerson</Field>
+					<Field name="Description"></Field>
+				</Object>
+			</Application>
+			<Application name="News">
+				<Object name="Articles">
+					<Field name="Author">Zoran Basich</Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 15:33:00 +0100
+					</Publish_date>
+					<Field name="Source">WSJ</Field>
+					<Field name="Source_url">http://blogs.wsj.com/venturecapital/feed/</Field>
+					<Field name="Summary">In this morning s Web roundup, Sequoia Capital
+						looks to round up $900 million
+						for its latest U.S. growth-capital fund. After raising about $18
+						million in
+						VC, Cloud.com gets bought by Citrix Systems for more than $200
+						million. And
+						facial-recognition technology the BI2 Technologies plans to provide to law-
+						enforcement agencies is causing a stir.
+
+					</Field>
+					<Field name="Title">The Daily Start-Up: Sequoia Pitches U.S. Growth
+						Fund With $900M Target WSJ </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113503995
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 14:30:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">Citrix Systems has become a formidable player and
+						has solidified its foothold
+						in the cloud computing businesses by taking the route of
+						acquisition.
+
+					</Field>
+					<Field name="Title">Citrix Strengthens Cloud Foothold - Analyst Blog
+						Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113509201
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 04:07:00 +0100
+					</Publish_date>
+					<Field name="Source">Financial Times</Field>
+					<Field name="Source_url">http://www.ft.com/rss/companies/us</Field>
+					<Field name="Summary">The US networking and remote access technology
+						company will acquire the three-
+						year-old start-up that is worth between $200m and $250m
+
+					</Field>
+					<Field name="Title">Citrix Systems in deal to buy Cloud.com Financial
+						Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113290041
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 19:34:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">On a day when rival Citrix Systems CTXS made a
+						key acquisition, VMware VMW
+						is releasing the latest version of its flagship vSphere
+						virtualization
+						platform. VMware is also tying several products into a "cloud
+						infrastructure
+						suite" that CEO Paul Moritz considers the equivalent of Microsoft Office
+						for
+						building "automated data centers." Post your comment!
+
+					</Field>
+					<Field name="Title">On a day when rival Citrix Systems CTXS made a
+						key acquisition, VMware VMW is releasing the latest version of its
+						flagship vSphere virtualization platform. VMware is also tying
+						several products into a "cloud infrastructure suite" that CEO Paul
+						Moritz considers the equivalent of Microsoft Office for building
+						"automated data centers." Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113125429
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">By DERRICK HARRIS of GigaOm</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 15:33:00 +0100
+					</Publish_date>
+					<Field name="Source">New York Times</Field>
+					<Field name="Source_url">http://feeds.nytimes.com/nyt/rss/start-ups
+					</Field>
+					<Field name="Summary">Citrix Systems has bought hot private-cloud
+						startup Cloud.com, a move that
+						immediately makes Citrix a leader in the quest to help companies build on-
+						premise Infrastructure-as-a-Service clouds à la Amazon EC2.
+						Cloud.com brings
+						an impressive list of customers that includes Bechtel, GoDaddy and
+						Zynga.
+
+
+					</Field>
+					<Field name="Title">Citrix Buys Cloud.com to Step Up VMware
+						Competition New York Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113054920
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 14:33:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">Citrix Systems CTXS is snapping up Cloud.com, a
+						provider of software
+						platforms that allow service providers to offer cloud services. The
+						acquisition should help Citrix to better compete against VMware
+						VMW in the
+						virtualization software market, as virtualization providers evolve to provide
+						broader infrastructure management. Post your comment!
+
+					</Field>
+					<Field name="Title">Citrix Systems CTXS is snapping up Cloud.com, a
+						provider of software platforms that allow service providers to
+						offer cloud services. The acquisition should help Citrix to better
+						compete against VMware VMW in the virtualization software market,
+						as virtualization providers evolve to provide broader
+						infrastructure management. Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113025694
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Thu, 07 Jul 2011 15:15:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">Oracle Corp. in a bid to strengthen its desktop
+						virtualization portfolio has
+						launched the Oracle Virtual Desktop Client App for Apple Inc. s iPad.
+
+					</Field>
+					<Field name="Title">Oracle Launches Virtualization App - Analyst Blog
+						Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/111052716
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">History</Field>
+					<Publish_date name="Publih_date">Wed, 06 Jul 2011 19:10:00 +0100
+					</Publish_date>
+					<Field name="Source">Deep Market</Field>
+					<Field name="Source_url">http://www.deepmarket.com/feed/</Field>
+					<Field name="Summary">The intraday price for China Agritech has moved
+						below its 200 period 30 minute
+						moving average of 6.83. CAGC is around 1.7 bucks now. Going below the
+						moving
+						average deepens the negative trend. The price is already below support of
+						$6.92. Other stocks to watch - these have a positive correlation
+						with China
+						...
+
+					</Field>
+					<Field name="Title">China Agritech CAGC goes negative by breaking
+						below intraday moving average 2011/07/06 14:09 Deep Market </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/110644941
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Wed, 06 Jul 2011 14:15:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">We downgrade our recommendation on Citrix Systems
+						to Neutral based on its
+						current valuation.
+
+					</Field>
+					<Field name="Title">Neutral on Citrix Systems - Analyst Blog Zacks
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/110556955
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"> Stephen Lawson </Field>
+					<Publish_date name="Publih_date">Wed, 22 Jun 2011 20:07:00 +0100
+					</Publish_date>
+					<Field name="Source">Computerworld</Field>
+					<Field name="Source_url">http://rss.computerworld.com/computerworld/s/feed/topic/10
+					</Field>
+					<Field name="Summary">Simon Crosby, the former CTO of Citrix Systems
+						data center and cloud
+						business, has formed a startup called Bromium that will aim to solve
+						security
+						problems in a cloud environment.
+
+					</Field>
+					<Field name="Title">Startup Bromium takes aim at cloud security
+						Computerworld </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/104779782
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">By DERRICK HARRIS of GigaOm</Field>
+					<Publish_date name="Publih_date">Wed, 22 Jun 2011 16:53:00 +0100
+					</Publish_date>
+					<Field name="Source">New York Times</Field>
+					<Field name="Source_url">http://feeds.nytimes.com/nyt/rss/business-computing
+					</Field>
+					<Field name="Summary">Simon Crosby is leaving his post as data center
+						and virtualization CTO at
+						Citrix Systems to launch a new company called Bromium that will utilize
+						virtualization technology to tackle cloud computing security. The
+						company
+						raised $9.2 million from Andreessen Horowitz, Ignition Partners and
+						Lightspeed
+						Venture Partners.
+
+
+					</Field>
+					<Field name="Title">Simon Crosby Leaving Citrix to Tackle Cloud
+						Security New York Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/104682649
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Wed, 15 Jun 2011 01:00:00 +0100
+					</Publish_date>
+					<Field name="Source">VCA Online</Field>
+					<Field name="Source_url">http://www.vcaonline.com/news/rss/index.asp
+					</Field>
+					<Field name="Summary">
+
+					</Field>
+					<Field name="Title">Cotendo Announces $17 Million Funding Round That
+						Includes Strategic Investors and Business Partners Citrix Systems
+						and Juniper Networks VCA Online </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/101981168
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">BioMO</Field>
+					<Publish_date name="Publih_date">Mon, 13 Jun 2011 21:20:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">It appears RIMM and their buy-and-hold investors
+						are heading down the
+						graveyard road taken by Blockbuster.
+
+					</Field>
+					<Field name="Title">RIMM: Going Down the Road of Blockbuster - Voice
+						of the People Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/101015394
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Mark Gongloff</Field>
+					<Publish_date name="Publih_date">Tue, 07 Jun 2011 14:08:00 +0100
+					</Publish_date>
+					<Field name="Source">WSJ</Field>
+					<Field name="Source_url">http://feeds.wsjonline.com/wsj/marketbeat/feed
+					</Field>
+					<Field name="Summary">Stocks to watch today include FedEx, Citrix
+						Systems and more:
+
+					</Field>
+					<Field name="Title">Stocks to Watch: FedEx, Citrix and More WSJ
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98703977
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 07 Jun 2011 13:31:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">Citrix Systems CTXS gets cut to Underweight from
+						Neutral at both Jefferies
+						and JPMorgan. Says Jefferies: "...current valuations assume overly
+						optimistic
+						market adoption rates of desktop virtualization technology... we think
+						the
+						intrinsic value of CTXS shares is well below what is implied in the current
+						share price." Shares -2.6%. Post your comment!
+
+					</Field>
+					<Field name="Title">Citrix Systems CTXS gets cut to Underweight from
+						Neutral at both Jefferies and JPMorgan. Says Jefferies:
+						"...current valuations assume overly optimistic market adoption
+						rates of desktop virtualization technology... we think the
+						intrinsic value of CTXS shares is well below what is implied in
+						the current share price." Shares -2.6%. Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98680702
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Mon, 06 Jun 2011 06:00:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/BullOfTheDay/rss
+					</Field>
+					<Field name="Summary">Citrix Systems, Inc. CTXS - Bull of the Day
+
+					</Field>
+					<Field name="Title">Citrix Systems, Inc. CTXS - Bull of the Day Zacks
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98134504
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Thu, 02 Jun 2011 00:40:00 +0100
+					</Publish_date>
+					<Field name="Source">eWeek</Field>
+					<Field name="Source_url">http://feeds.ziffdavisenterprise.com/RSS/tech.xml
+					</Field>
+					<Field name="Summary">Citrix will be rolling out a new OpenStack
+						product that would let customers
+						build private or public clouds. - Citrix System added Project Olympus,
+						a new
+						cloud product to its open cloud computing portfolio to complement its
+						Citrix
+						NetScaler Cloud Gateway and NetScaler Cloud Bridge. Citrix Systems
+						announced
+						Project Olympus, a new cloud infrastructure product based on the open
+						source
+						cloud operating syste...
+
+
+					</Field>
+					<Field name="Title">Citrix Unveils Project Olympus, Commercial
+						Version of OpenStack Cloud Platform eWeek </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/96744462
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Chandra Shekhar</Field>
+					<Field name="last_name" displayText="Last Name">Tekwani</Field>
+					<Field name="headline" displayText="Headline">Mobile Networking &amp;
+						Cloud Services</Field>
+					<Field name="location" displayText="Location">San Francisco Bay Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Networking
+					</Field>
+					<Field name="current_status" displayText="Current Status">Mobile Networking
+						&amp; Cloud Services</Field>
+					<Field name="num_connections" displayText="Connections">500</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="specialities" displayText="Specialities">Mobile Data Offload,
+						Mobile messaging security, Cloud security, Mobile Network
+						Security, Virtual Data Center Security, WiMAX/LTE Core Network,
+						VoIP over WiMAX</Field>
+					<Field name="associations" displayText="Associations">President - IIT
+						Roorkee Alumni Association of North America</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">12</Field>
+					<Field name="member_url_resources" displayText="Member URL Resources">http://docs.google.com/present/view?id=dd927939_1022fptm9rc3,Mobilize
+						the
+						Cloud;http://www.cloudmark.com/en/press/releases/2009-09-14--cloudmark-names-chandra-tekwani-vice-president-of-mobile-operations,VP
+						of Mobile
+						Operations;http://www.telecomengine.com/search/article.asp?HH_ID=AR_2981,VP
+						of Mobile &amp; Convergence</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_N0TLAXLBSnoATjijVZ8nAQtVTcD03RCj94vsAbCIY-JfOxvg4JldxF9L7MShCp_Avp_ROhp3VuFY
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/in/tekwani
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Founder</Field>
+					<Field name="start_date" displayText="Start Date">2-2008</Field>
+					<Field name="company" displayText="Company">Core Mobile Networks, Inc.
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Mobile
+						Networking &amp; Cloud Services</Field>
+					<Field name="start_date" displayText="Start Date">10-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - 3G &amp; 4G
+						Mobile Core Products</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">5-2010</Field>
+					<Field name="end_date" displayText="End Date">11-2010</Field>
+					<Field name="company" displayText="Company">Aviat Networks Formerly
+						Harris Stratex </Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">VP - Mobile Operations
+					</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">8-2009</Field>
+					<Field name="end_date" displayText="End Date">8-2010</Field>
+					<Field name="company" displayText="Company">Cloudmark</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - 4G Core, VoIP,
+						IMS</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-2008</Field>
+					<Field name="end_date" displayText="End Date">4-2009</Field>
+					<Field name="company" displayText="Company">Harris Stratex Networks
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Strategic
+						Partnerships, Product Management &amp; Marketing</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-2007</Field>
+					<Field name="end_date" displayText="End Date">2-2009</Field>
+					<Field name="company" displayText="Company">Telsima Corp.</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Technology
+						Strategy &amp; Partnerships</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-2007</Field>
+					<Field name="end_date" displayText="End Date">1-2008</Field>
+					<Field name="company" displayText="Company">Reflex Security</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">VP &amp; Head - Mobile &amp;
+						Convergence Solutions, Marketing, Partnerships </Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">4-2004</Field>
+					<Field name="end_date" displayText="End Date">3-2007</Field>
+					<Field name="company" displayText="Company">Juniper Networks</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Solutions
+						Architecture &amp; Business Development</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">7-2001</Field>
+					<Field name="end_date" displayText="End Date">4-2004</Field>
+					<Field name="company" displayText="Company">NetScreen Technologies
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Partner
+						Engineering</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-1999</Field>
+					<Field name="end_date" displayText="End Date">7-2001</Field>
+					<Field name="company" displayText="Company">Nokia</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Integration &amp; Test
+						Manager</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1997</Field>
+					<Field name="end_date" displayText="End Date">9-1999</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Software
+						Engineering</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">1-1997</Field>
+					<Field name="end_date" displayText="End Date">6-1997</Field>
+					<Field name="company" displayText="Company">Performance Telecom</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Systems Integrator - Staff
+						Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1995</Field>
+					<Field name="end_date" displayText="End Date">1-1997</Field>
+					<Field name="company" displayText="Company">General Instrument /
+						Motorola</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Systems
+						Integration</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-1994</Field>
+					<Field name="end_date" displayText="End Date">3-1995</Field>
+					<Field name="company" displayText="Company">AT&amp;T Mobility</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Intern</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1994</Field>
+					<Field name="end_date" displayText="End Date">9-1994</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard Labs,
+						Bristol</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1993</Field>
+					<Field name="end_date" displayText="End Date">9-1993</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard India
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Software</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">8-1992</Field>
+					<Field name="end_date" displayText="End Date">3-1993</Field>
+					<Field name="company" displayText="Company">AT&amp;T</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Software Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1991</Field>
+					<Field name="end_date" displayText="End Date">8-1992</Field>
+					<Field name="company" displayText="Company">Unisys</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Staff Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1990</Field>
+					<Field name="end_date" displayText="End Date">6-1991</Field>
+					<Field name="company" displayText="Company">CDAC Bangalore</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Intern</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1989</Field>
+					<Field name="end_date" displayText="End Date">7-1989</Field>
+					<Field name="company" displayText="Company">C-DOT Centre for
+						Development of Telematics</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of
+						California, Santa Cruz</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Business Management
+					</Field>
+					<Field name="start_date" displayText="Start Date">1998</Field>
+					<Field name="end_date" displayText="End Date">2000</Field>
+					<Field name="degree" displayText="Degree">Certificate</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of Warwick
+					</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Parallel Computers
+					</Field>
+					<Field name="start_date" displayText="Start Date">1993</Field>
+					<Field name="end_date" displayText="End Date">1994</Field>
+					<Field name="degree" displayText="Degree">Msc</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Indian Institute of
+						Technology, Roorkee</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Computer Science
+						&amp; Technology</Field>
+					<Field name="start_date" displayText="Start Date">1986</Field>
+					<Field name="end_date" displayText="End Date">1990</Field>
+					<Field name="degree" displayText="Degree">Bachelor of Engineering
+					</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Kendriya Vidyalaya
+					</Field>
+					<Field name="start_date" displayText="Start Date">1976</Field>
+					<Field name="end_date" displayText="End Date">1984</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Izzet</Field>
+					<Field name="last_name" displayText="Last Name">Ergas</Field>
+					<Field name="headline" displayText="Headline">Information Technology
+						Engineer</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="num_connections" displayText="Connections">76</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/izzet-ergas/9/56b/b6a
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Sr. Manager, Messaging
+						Services</Field>
+					<Field name="start_date" displayText="Start Date">9-2000</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Martin</Field>
+					<Field name="last_name" displayText="Last Name">Kelly</Field>
+					<Field name="headline" displayText="Headline">Vice President - World
+						Wide Information Technology at Citrix Systems</Field>
+					<Field name="location" displayText="Location">Ireland</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="current_status" displayText="Current Status">Vice President -
+						World Wide Information Technology at Citrix Systems</Field>
+					<Field name="num_connections" displayText="Connections">301</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">1</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_HOKl9Hv4gFpETvs0EZPC9E5q0XmeiPE0Eyka9wbXh3sZpcgxk48gZI1oAEaB8Nw1djt7J2vY5wtt
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/martin-kelly/1/711/ab
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Vice President - World Wide
+						Information Technology</Field>
+					<Field name="start_date" displayText="Start Date">10-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Michael</Field>
+					<Field name="last_name" displayText="Last Name">Harries</Field>
+					<Field name="headline" displayText="Headline">Senior Director, Startup
+						Accelerator at Citrix Systems</Field>
+					<Field name="location" displayText="Location">San Francisco Bay Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="current_status" displayText="Current Status">Senior Director,
+						Startup Accelerator at Citrix Systems</Field>
+					<Field name="num_connections" displayText="Connections">481</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="specialities" displayText="Specialities">Innovation, Software,
+						Market evolution, Startups, Futures</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">2</Field>
+					<Field name="member_url_resources" displayText="Member URL Resources">http://technoist.com,Personal
+						blog;http://community.citrix.com/blogs/citrite/michaelha/,Citrix
+						blog;http://citrix.com/accelerator,Citrix Startup Accelerator
+					</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_LPiHRo31GQaM-sDSFB_BReLxCCEsrJySbNcBReC7gbYEfgwDWv1XvH9Tu2o5POgTXK39qfrlxfmo
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/in/michaelharries
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior Director, Citrix
+						Startup Accelerator</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">12-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior Director Strategy and
+						Communications, Citrix Labs and CTO Office</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">11-2007</Field>
+					<Field name="end_date" displayText="End Date">2-2011</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior PM - Director
+						Technology Strategy, Advanced Products Group</Field>
+					<Field name="start_date" displayText="Start Date">4-2002</Field>
+					<Field name="end_date" displayText="End Date">11-2007</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Scientist/Product Manager
+					</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">10-1999</Field>
+					<Field name="end_date" displayText="End Date">2-2002</Field>
+					<Field name="company" displayText="Company">Pacific Knowledge Systems
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Principal</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">2-1992</Field>
+					<Field name="end_date" displayText="End Date">12-2001</Field>
+					<Field name="company" displayText="Company">Harries Consulting</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Lecturer / Researcher</Field>
+					<Field name="start_date" displayText="Start Date">1-1995</Field>
+					<Field name="end_date" displayText="End Date">12-2000</Field>
+					<Field name="company" displayText="Company">Univeristy of NSW</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Founder</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">1994</Field>
+					<Field name="end_date" displayText="End Date">1999</Field>
+					<Field name="company" displayText="Company">ImpSys</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of New South
+						Wales</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Artificial
+						Intelligence and Machine Learning</Field>
+					<Field name="start_date" displayText="Start Date">1992</Field>
+					<Field name="end_date" displayText="End Date">2000</Field>
+					<Field name="degree" displayText="Degree">Ph.D.</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of Sydney
+					</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Economics</Field>
+					<Field name="end_date" displayText="End Date">1988</Field>
+					<Field name="degree" displayText="Degree">B.Ec</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Paul</Field>
+					<Field name="last_name" displayText="Last Name">Martine</Field>
+					<Field name="headline" displayText="Headline">CIO at Citrix</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Information Technology and
+						Services</Field>
+					<Field name="num_connections" displayText="Connections">165</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_8LXTPsaCt19URqlxa3LOP4yyKv_nUBhxGbrOPJYy7KBQk1c02iqSjMotYRiW4K3PT66xyY2YZsrq
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/paul-martine/4/86a/46a
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">CIO</Field>
+					<Field name="start_date" displayText="Start Date">11-1999</Field>
+					<Field name="company" displayText="Company">Citrix</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Branch Sales Director</Field>
+					<Field name="start_date" displayText="Start Date">10-1996</Field>
+					<Field name="end_date" displayText="End Date">11-1999</Field>
+					<Field name="company" displayText="Company">Lucent Technologies</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Technical Specialist</Field>
+					<Field name="start_date" displayText="Start Date">7-1985</Field>
+					<Field name="end_date" displayText="End Date">10-1996</Field>
+					<Field name="company" displayText="Company">AT&amp;T Bell Laboratories
+					</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Kean University</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Computer Science
+					</Field>
+					<Field name="start_date" displayText="Start Date">1978</Field>
+					<Field name="end_date" displayText="End Date">1982</Field>
+					<Field name="degree" displayText="Degree">BS</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Michael</Field>
+					<Field name="last_name" displayText="Last Name">Emerson</Field>
+					<Field name="headline" displayText="Headline">IT Director at Citrix
+					</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="num_connections" displayText="Connections">105</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/michael-emerson/1/b81/b1
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">IT Director</Field>
+					<Field name="start_date" displayText="Start Date">2001</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+		</Message>
+		<Message id="2" Purged="NO" time="7/13/2011 2:35:47 PM"
+			subject="Citrix Systems" MeetingStart="7/13/2011 2:50:00 PM"
+			MeetingEnd="7/13/2011 3:20:00 PM">
+			<Application name="LinkedIn" />
+			<Application name="Salesforce">
+				<Object name="Account">
+					<Field name="Name" displayText="Name">Citrix Systems</Field>
+					<Field name="BillingCity" displayText="BillingCity">Santa Clara</Field>
+					<Field name="BillingState" displayText="BillingState">CA</Field>
+					<Field name="BillingCountry" displayText="BillingCountry">USA</Field>
+					<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					<Object name="Case">
+						<Field name="CreatedDate" displayText="CreatedDate">7/7/2011 2:16:18 PM
+						</Field>
+						<Field name="CaseNumber" displayText="CaseNumber">00001039</Field>
+						<Field name="Description" displayText="Description">Improve Receiver
+							adoption on smartphones and tablets by Real Time Delivery of
+							Context Based Content</Field>
+						<Field name="Status" displayText="Status">Escalated</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Hong Lu</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Michael Cristinziano</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Sumit Dhawan</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Thorpe</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Sunil Potti</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Wes Wasson</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Templeton</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Andy Cohen</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Mark Martines</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Ed Loftus</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Steve Shah</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Abhishek Chauhan</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Stefan Johansson</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Klaus Oestermann</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Christer Stafferod</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Rajiv Sinha</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">John McIntyre</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Martin Duursma</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Contact">
+						<Field name="Name" displayText="Name">Michael Harries</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Citrix Receiver</Field>
+						<Field name="Description" displayText="Description">Meet with Sumit with
+							Value Proposition to Embed Sales Crystal as part of Receiver
+						</Field>
+						<Field name="StageName" displayText="StageName">Qualification</Field>
+						<Field name="Probability" displayText="Probability">60</Field>
+						<Field name="Amount" displayText="Amount">3000000</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Mobile security</Field>
+						<Field name="StageName" displayText="StageName">Qualification</Field>
+						<Field name="Probability" displayText="Probability">10</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Mobile Backhaul Caching
+						</Field>
+						<Field name="StageName" displayText="StageName">Needs Analysis</Field>
+						<Field name="Probability" displayText="Probability">20</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Startup Accelerator</Field>
+						<Field name="StageName" displayText="StageName">Value Proposition
+						</Field>
+						<Field name="Probability" displayText="Probability">50</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+					<Object name="Opportunity">
+						<Field name="Name" displayText="Name">Sales Crystal Trial</Field>
+						<Field name="Description" displayText="Description">Trial of Sales Crystal
+							by Citrix Execs &amp; Field Sales</Field>
+						<Field name="StageName" displayText="StageName">Id. Decision Makers
+						</Field>
+						<Field name="Probability" displayText="Probability">99</Field>
+						<Field name="Amount" displayText="Amount">0</Field>
+						<Field name="accountname" displayText="Account Name">Citrix Systems</Field>
+					</Object>
+				</Object>
+			</Application>
+			<Application name="Outlook">
+				<Object name="Calendar">
+					<Field name="Subject">Citrix Systems</Field>
+					<Field name="Account">Citrix Systems</Field>
+					<Field name="StartTime">7/13/2011 2:50:00 PM</Field>
+					<Field name="EndTime">7/13/2011 3:20:00 PM</Field>
+					<Field name="Location">(888) 372-8921 Participant: 545204</Field>
+					<Field name="Attendee">Chandra Sekhar Tekwani; Izzet Ergas; Martin
+						Kelly; Michael Harries; Paul Martine; Michael Emerson</Field>
+					<Field name="Description"></Field>
+				</Object>
+			</Application>
+			<Application name="News">
+				<Object name="Articles">
+					<Field name="Author">Zoran Basich</Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 15:33:00 +0100
+					</Publish_date>
+					<Field name="Source">WSJ</Field>
+					<Field name="Source_url">http://blogs.wsj.com/venturecapital/feed/</Field>
+					<Field name="Summary">In this morning s Web roundup, Sequoia Capital
+						looks to round up $900 million
+						for its latest U.S. growth-capital fund. After raising about $18
+						million in
+						VC, Cloud.com gets bought by Citrix Systems for more than $200
+						million. And
+						facial-recognition technology the BI2 Technologies plans to provide to law-
+						enforcement agencies is causing a stir.
+
+					</Field>
+					<Field name="Title">The Daily Start-Up: Sequoia Pitches U.S. Growth
+						Fund With $900M Target WSJ </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113503995
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 14:30:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">Citrix Systems has become a formidable player and
+						has solidified its foothold
+						in the cloud computing businesses by taking the route of
+						acquisition.
+
+					</Field>
+					<Field name="Title">Citrix Strengthens Cloud Foothold - Analyst Blog
+						Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113509201
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Wed, 13 Jul 2011 04:07:00 +0100
+					</Publish_date>
+					<Field name="Source">Financial Times</Field>
+					<Field name="Source_url">http://www.ft.com/rss/companies/us</Field>
+					<Field name="Summary">The US networking and remote access technology
+						company will acquire the three-
+						year-old start-up that is worth between $200m and $250m
+
+					</Field>
+					<Field name="Title">Citrix Systems in deal to buy Cloud.com Financial
+						Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113290041
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 19:34:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">On a day when rival Citrix Systems CTXS made a
+						key acquisition, VMware VMW
+						is releasing the latest version of its flagship vSphere
+						virtualization
+						platform. VMware is also tying several products into a "cloud
+						infrastructure
+						suite" that CEO Paul Moritz considers the equivalent of Microsoft Office
+						for
+						building "automated data centers." Post your comment!
+
+					</Field>
+					<Field name="Title">On a day when rival Citrix Systems CTXS made a
+						key acquisition, VMware VMW is releasing the latest version of its
+						flagship vSphere virtualization platform. VMware is also tying
+						several products into a "cloud infrastructure suite" that CEO Paul
+						Moritz considers the equivalent of Microsoft Office for building
+						"automated data centers." Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113125429
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">By DERRICK HARRIS of GigaOm</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 15:33:00 +0100
+					</Publish_date>
+					<Field name="Source">New York Times</Field>
+					<Field name="Source_url">http://feeds.nytimes.com/nyt/rss/start-ups
+					</Field>
+					<Field name="Summary">Citrix Systems has bought hot private-cloud
+						startup Cloud.com, a move that
+						immediately makes Citrix a leader in the quest to help companies build on-
+						premise Infrastructure-as-a-Service clouds à la Amazon EC2.
+						Cloud.com brings
+						an impressive list of customers that includes Bechtel, GoDaddy and
+						Zynga.
+
+
+					</Field>
+					<Field name="Title">Citrix Buys Cloud.com to Step Up VMware
+						Competition New York Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113054920
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 12 Jul 2011 14:33:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">Citrix Systems CTXS is snapping up Cloud.com, a
+						provider of software
+						platforms that allow service providers to offer cloud services. The
+						acquisition should help Citrix to better compete against VMware
+						VMW in the
+						virtualization software market, as virtualization providers evolve to provide
+						broader infrastructure management. Post your comment!
+
+					</Field>
+					<Field name="Title">Citrix Systems CTXS is snapping up Cloud.com, a
+						provider of software platforms that allow service providers to
+						offer cloud services. The acquisition should help Citrix to better
+						compete against VMware VMW in the virtualization software market,
+						as virtualization providers evolve to provide broader
+						infrastructure management. Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/113025694
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Thu, 07 Jul 2011 15:15:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">Oracle Corp. in a bid to strengthen its desktop
+						virtualization portfolio has
+						launched the Oracle Virtual Desktop Client App for Apple Inc. s iPad.
+
+					</Field>
+					<Field name="Title">Oracle Launches Virtualization App - Analyst Blog
+						Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/111052716
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">History</Field>
+					<Publish_date name="Publih_date">Wed, 06 Jul 2011 19:10:00 +0100
+					</Publish_date>
+					<Field name="Source">Deep Market</Field>
+					<Field name="Source_url">http://www.deepmarket.com/feed/</Field>
+					<Field name="Summary">The intraday price for China Agritech has moved
+						below its 200 period 30 minute
+						moving average of 6.83. CAGC is around 1.7 bucks now. Going below the
+						moving
+						average deepens the negative trend. The price is already below support of
+						$6.92. Other stocks to watch - these have a positive correlation
+						with China
+						...
+
+					</Field>
+					<Field name="Title">China Agritech CAGC goes negative by breaking
+						below intraday moving average 2011/07/06 14:09 Deep Market </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/110644941
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Wed, 06 Jul 2011 14:15:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">We downgrade our recommendation on Citrix Systems
+						to Neutral based on its
+						current valuation.
+
+					</Field>
+					<Field name="Title">Neutral on Citrix Systems - Analyst Blog Zacks
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/110556955
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"> Stephen Lawson </Field>
+					<Publish_date name="Publih_date">Wed, 22 Jun 2011 20:07:00 +0100
+					</Publish_date>
+					<Field name="Source">Computerworld</Field>
+					<Field name="Source_url">http://rss.computerworld.com/computerworld/s/feed/topic/10
+					</Field>
+					<Field name="Summary">Simon Crosby, the former CTO of Citrix Systems
+						data center and cloud
+						business, has formed a startup called Bromium that will aim to solve
+						security
+						problems in a cloud environment.
+
+					</Field>
+					<Field name="Title">Startup Bromium takes aim at cloud security
+						Computerworld </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/104779782
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">By DERRICK HARRIS of GigaOm</Field>
+					<Publish_date name="Publih_date">Wed, 22 Jun 2011 16:53:00 +0100
+					</Publish_date>
+					<Field name="Source">New York Times</Field>
+					<Field name="Source_url">http://feeds.nytimes.com/nyt/rss/business-computing
+					</Field>
+					<Field name="Summary">Simon Crosby is leaving his post as data center
+						and virtualization CTO at
+						Citrix Systems to launch a new company called Bromium that will utilize
+						virtualization technology to tackle cloud computing security. The
+						company
+						raised $9.2 million from Andreessen Horowitz, Ignition Partners and
+						Lightspeed
+						Venture Partners.
+
+
+					</Field>
+					<Field name="Title">Simon Crosby Leaving Citrix to Tackle Cloud
+						Security New York Times </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/104682649
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Wed, 15 Jun 2011 01:00:00 +0100
+					</Publish_date>
+					<Field name="Source">VCA Online</Field>
+					<Field name="Source_url">http://www.vcaonline.com/news/rss/index.asp
+					</Field>
+					<Field name="Summary">
+
+					</Field>
+					<Field name="Title">Cotendo Announces $17 Million Funding Round That
+						Includes Strategic Investors and Business Partners Citrix Systems
+						and Juniper Networks VCA Online </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/101981168
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">BioMO</Field>
+					<Publish_date name="Publih_date">Mon, 13 Jun 2011 21:20:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/AllStories/rss
+					</Field>
+					<Field name="Summary">It appears RIMM and their buy-and-hold investors
+						are heading down the
+						graveyard road taken by Blockbuster.
+
+					</Field>
+					<Field name="Title">RIMM: Going Down the Road of Blockbuster - Voice
+						of the People Zacks </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/101015394
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Mark Gongloff</Field>
+					<Publish_date name="Publih_date">Tue, 07 Jun 2011 14:08:00 +0100
+					</Publish_date>
+					<Field name="Source">WSJ</Field>
+					<Field name="Source_url">http://feeds.wsjonline.com/wsj/marketbeat/feed
+					</Field>
+					<Field name="Summary">Stocks to watch today include FedEx, Citrix
+						Systems and more:
+
+					</Field>
+					<Field name="Title">Stocks to Watch: FedEx, Citrix and More WSJ
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98703977
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">SeekingAlpha</Field>
+					<Publish_date name="Publih_date">Tue, 07 Jun 2011 13:31:00 +0100
+					</Publish_date>
+					<Field name="Source">Seeking Alpha</Field>
+					<Field name="Source_url">http://seekingalpha.com/market_currents.xml
+					</Field>
+					<Field name="Summary">Citrix Systems CTXS gets cut to Underweight from
+						Neutral at both Jefferies
+						and JPMorgan. Says Jefferies: "...current valuations assume overly
+						optimistic
+						market adoption rates of desktop virtualization technology... we think
+						the
+						intrinsic value of CTXS shares is well below what is implied in the current
+						share price." Shares -2.6%. Post your comment!
+
+					</Field>
+					<Field name="Title">Citrix Systems CTXS gets cut to Underweight from
+						Neutral at both Jefferies and JPMorgan. Says Jefferies:
+						"...current valuations assume overly optimistic market adoption
+						rates of desktop virtualization technology... we think the
+						intrinsic value of CTXS shares is well below what is implied in
+						the current share price." Shares -2.6%. Seeking Alpha </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98680702
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author">Zacks Equity Research</Field>
+					<Publish_date name="Publih_date">Mon, 06 Jun 2011 06:00:00 +0100
+					</Publish_date>
+					<Field name="Source">Zacks</Field>
+					<Field name="Source_url">http://feed.zacks.com/commentary/BullOfTheDay/rss
+					</Field>
+					<Field name="Summary">Citrix Systems, Inc. CTXS - Bull of the Day
+
+					</Field>
+					<Field name="Title">Citrix Systems, Inc. CTXS - Bull of the Day Zacks
+					</Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/98134504
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+				<Object name="Articles">
+					<Field name="Author"></Field>
+					<Publish_date name="Publih_date">Thu, 02 Jun 2011 00:40:00 +0100
+					</Publish_date>
+					<Field name="Source">eWeek</Field>
+					<Field name="Source_url">http://feeds.ziffdavisenterprise.com/RSS/tech.xml
+					</Field>
+					<Field name="Summary">Citrix will be rolling out a new OpenStack
+						product that would let customers
+						build private or public clouds. - Citrix System added Project Olympus,
+						a new
+						cloud product to its open cloud computing portfolio to complement its
+						Citrix
+						NetScaler Cloud Gateway and NetScaler Cloud Bridge. Citrix Systems
+						announced
+						Project Olympus, a new cloud infrastructure product based on the open
+						source
+						cloud operating syste...
+
+
+					</Field>
+					<Field name="Title">Citrix Unveils Project Olympus, Commercial
+						Version of OpenStack Cloud Platform eWeek </Field>
+					<Field name="url">http://news.feedzilla.com/en_us/stories/business/96744462
+						q=citrix+systems&amp;client_source=api&amp;format=json</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Chandra Shekhar</Field>
+					<Field name="last_name" displayText="Last Name">Tekwani</Field>
+					<Field name="headline" displayText="Headline">Mobile Networking &amp;
+						Cloud Services</Field>
+					<Field name="location" displayText="Location">San Francisco Bay Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Networking
+					</Field>
+					<Field name="current_status" displayText="Current Status">Mobile Networking
+						&amp; Cloud Services</Field>
+					<Field name="num_connections" displayText="Connections">500</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="specialities" displayText="Specialities">Mobile Data Offload,
+						Mobile messaging security, Cloud security, Mobile Network
+						Security, Virtual Data Center Security, WiMAX/LTE Core Network,
+						VoIP over WiMAX</Field>
+					<Field name="associations" displayText="Associations">President - IIT
+						Roorkee Alumni Association of North America</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="member_url_resources" displayText="Member URL Resources">http://docs.google.com/present/view?id=dd927939_1022fptm9rc3,Mobilize
+						the
+						Cloud;http://www.cloudmark.com/en/press/releases/2009-09-14--cloudmark-names-chandra-tekwani-vice-president-of-mobile-operations,VP
+						of Mobile
+						Operations;http://www.telecomengine.com/search/article.asp?HH_ID=AR_2981,VP
+						of Mobile &amp; Convergence</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_N0TLAXLBSnoATjijVZ8nAQtVTcD03RCj94vsAbCIY-JfOxvg4JldxF9L7MShCp_Avp_ROhp3VuFY
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/in/tekwani
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Founder</Field>
+					<Field name="start_date" displayText="Start Date">2-2008</Field>
+					<Field name="company" displayText="Company">Core Mobile Networks, Inc.
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Mobile
+						Networking &amp; Cloud Services</Field>
+					<Field name="start_date" displayText="Start Date">10-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - 3G &amp; 4G
+						Mobile Core Products</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">5-2010</Field>
+					<Field name="end_date" displayText="End Date">11-2010</Field>
+					<Field name="company" displayText="Company">Aviat Networks Formerly
+						Harris Stratex </Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">VP - Mobile Operations
+					</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">8-2009</Field>
+					<Field name="end_date" displayText="End Date">8-2010</Field>
+					<Field name="company" displayText="Company">Cloudmark</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - 4G Core, VoIP,
+						IMS</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-2008</Field>
+					<Field name="end_date" displayText="End Date">4-2009</Field>
+					<Field name="company" displayText="Company">Harris Stratex Networks
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Strategic
+						Partnerships, Product Management &amp; Marketing</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-2007</Field>
+					<Field name="end_date" displayText="End Date">2-2009</Field>
+					<Field name="company" displayText="Company">Telsima Corp.</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Technology
+						Strategy &amp; Partnerships</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-2007</Field>
+					<Field name="end_date" displayText="End Date">1-2008</Field>
+					<Field name="company" displayText="Company">Reflex Security</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">VP &amp; Head - Mobile &amp;
+						Convergence Solutions, Marketing, Partnerships </Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">4-2004</Field>
+					<Field name="end_date" displayText="End Date">3-2007</Field>
+					<Field name="company" displayText="Company">Juniper Networks</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Solutions
+						Architecture &amp; Business Development</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">7-2001</Field>
+					<Field name="end_date" displayText="End Date">4-2004</Field>
+					<Field name="company" displayText="Company">NetScreen Technologies
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Partner
+						Engineering</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-1999</Field>
+					<Field name="end_date" displayText="End Date">7-2001</Field>
+					<Field name="company" displayText="Company">Nokia</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Integration &amp; Test
+						Manager</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1997</Field>
+					<Field name="end_date" displayText="End Date">9-1999</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Director - Software
+						Engineering</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">1-1997</Field>
+					<Field name="end_date" displayText="End Date">6-1997</Field>
+					<Field name="company" displayText="Company">Performance Telecom</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Systems Integrator - Staff
+						Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1995</Field>
+					<Field name="end_date" displayText="End Date">1-1997</Field>
+					<Field name="company" displayText="Company">General Instrument /
+						Motorola</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Systems
+						Integration</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">9-1994</Field>
+					<Field name="end_date" displayText="End Date">3-1995</Field>
+					<Field name="company" displayText="Company">AT&amp;T Mobility</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Intern</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1994</Field>
+					<Field name="end_date" displayText="End Date">9-1994</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard Labs,
+						Bristol</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1993</Field>
+					<Field name="end_date" displayText="End Date">9-1993</Field>
+					<Field name="company" displayText="Company">Hewlett-Packard India
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Consultant - Software</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">8-1992</Field>
+					<Field name="end_date" displayText="End Date">3-1993</Field>
+					<Field name="company" displayText="Company">AT&amp;T</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Software Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1991</Field>
+					<Field name="end_date" displayText="End Date">8-1992</Field>
+					<Field name="company" displayText="Company">Unisys</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Staff Engineer</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">6-1990</Field>
+					<Field name="end_date" displayText="End Date">6-1991</Field>
+					<Field name="company" displayText="Company">CDAC Bangalore</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Intern</Field>
+					<Field name="summary" displayText="Summary">US citizen with Bachelors
+						and Masters Degree in Computer Science &amp; Certificate in
+						Business Management and 20 years professional experience in
+						Networking and Security industry with increasing responsibilities
+						including Executive Level reporting to the CEO.
+
+						Unique business skill set in taking companies into mobile market service
+						provider and enterprise via cross functional efforts for execution
+						of product and Go-to-market strategy.
+
+						Specialized executive skill set in taking startup groups within large
+						companies and taking them mainstream across multiple functions as
+						revenue grows from 0 to up to $100M annually.
+
+						Functional experience includes strategy creation &amp; operational plan
+						development, product line management, product marketing,
+						sales/systems engineering, business development via strategic
+						alliances, partner engineering, engineering management &amp;
+						systems integration.
+
+						Technical areas of specialization include, Mobile Messaging and Security,
+						Cloud Computing &amp; Security, Virtualized Data Center Security,
+						IP Networking &amp; Security, SS7/SIGTRAN security,
+						Wireless/Mobile 2G/3G/4G Core Infrastructure, Wireless Broadband
+						WiMAX/LTE , VoIP, IMS, Fixed Mobile Convergence and Mobile
+						Application Delivery to Smart phones.
+
+
+						Current Focus
+						1. Mobilize the Cloud by, real time delivery of Context Based
+						Information Pushed to Mobile Devices.
+
+						2. Consulting for taking products &amp; services companies into
+						Mobile markets service provider and enterprise via cross
+						functional efforts for execution of product strategy and
+						Go-to-market strategy.
+
+						3. Consulting for Mobile Operators for,
+						a. Strategies to deal with data tsunami due to smartphones
+						b. Seamless transition from 2G to 3G and 4G networks
+						c. Mobile operator network security architecture
+					</Field>
+					<Field name="start_date" displayText="Start Date">3-1989</Field>
+					<Field name="end_date" displayText="End Date">7-1989</Field>
+					<Field name="company" displayText="Company">C-DOT Centre for
+						Development of Telematics</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of
+						California, Santa Cruz</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Business Management
+					</Field>
+					<Field name="start_date" displayText="Start Date">1998</Field>
+					<Field name="end_date" displayText="End Date">2000</Field>
+					<Field name="degree" displayText="Degree">Certificate</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of Warwick
+					</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Parallel Computers
+					</Field>
+					<Field name="start_date" displayText="Start Date">1993</Field>
+					<Field name="end_date" displayText="End Date">1994</Field>
+					<Field name="degree" displayText="Degree">Msc</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Indian Institute of
+						Technology, Roorkee</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Computer Science
+						&amp; Technology</Field>
+					<Field name="start_date" displayText="Start Date">1986</Field>
+					<Field name="end_date" displayText="End Date">1990</Field>
+					<Field name="degree" displayText="Degree">Bachelor of Engineering
+					</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Kendriya Vidyalaya
+					</Field>
+					<Field name="start_date" displayText="Start Date">1976</Field>
+					<Field name="end_date" displayText="End Date">1984</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Izzet</Field>
+					<Field name="last_name" displayText="Last Name">Ergas</Field>
+					<Field name="headline" displayText="Headline">Information Technology
+						Engineer</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="num_connections" displayText="Connections">76</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/izzet-ergas/9/56b/b6a
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Sr. Manager, Messaging
+						Services</Field>
+					<Field name="start_date" displayText="Start Date">9-2000</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Martin</Field>
+					<Field name="last_name" displayText="Last Name">Kelly</Field>
+					<Field name="headline" displayText="Headline">Vice President - World
+						Wide Information Technology at Citrix Systems</Field>
+					<Field name="location" displayText="Location">Ireland</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="current_status" displayText="Current Status">Vice President -
+						World Wide Information Technology at Citrix Systems</Field>
+					<Field name="num_connections" displayText="Connections">301</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">1</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_HOKl9Hv4gFpETvs0EZPC9E5q0XmeiPE0Eyka9wbXh3sZpcgxk48gZI1oAEaB8Nw1djt7J2vY5wtt
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/martin-kelly/1/711/ab
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Vice President - World Wide
+						Information Technology</Field>
+					<Field name="start_date" displayText="Start Date">10-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Michael</Field>
+					<Field name="last_name" displayText="Last Name">Harries</Field>
+					<Field name="headline" displayText="Headline">Senior Director, Startup
+						Accelerator at Citrix Systems</Field>
+					<Field name="location" displayText="Location">San Francisco Bay Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="current_status" displayText="Current Status">Senior Director,
+						Startup Accelerator at Citrix Systems</Field>
+					<Field name="num_connections" displayText="Connections">481</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="specialities" displayText="Specialities">Innovation, Software,
+						Market evolution, Startups, Futures</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">2</Field>
+					<Field name="member_url_resources" displayText="Member URL Resources">http://technoist.com,Personal
+						blog;http://community.citrix.com/blogs/citrite/michaelha/,Citrix
+						blog;http://citrix.com/accelerator,Citrix Startup Accelerator
+					</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_LPiHRo31GQaM-sDSFB_BReLxCCEsrJySbNcBReC7gbYEfgwDWv1XvH9Tu2o5POgTXK39qfrlxfmo
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/in/michaelharries
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior Director, Citrix
+						Startup Accelerator</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">12-2010</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior Director Strategy and
+						Communications, Citrix Labs and CTO Office</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">11-2007</Field>
+					<Field name="end_date" displayText="End Date">2-2011</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Senior PM - Director
+						Technology Strategy, Advanced Products Group</Field>
+					<Field name="start_date" displayText="Start Date">4-2002</Field>
+					<Field name="end_date" displayText="End Date">11-2007</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Scientist/Product Manager
+					</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">10-1999</Field>
+					<Field name="end_date" displayText="End Date">2-2002</Field>
+					<Field name="company" displayText="Company">Pacific Knowledge Systems
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Principal</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">2-1992</Field>
+					<Field name="end_date" displayText="End Date">12-2001</Field>
+					<Field name="company" displayText="Company">Harries Consulting</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Lecturer / Researcher</Field>
+					<Field name="start_date" displayText="Start Date">1-1995</Field>
+					<Field name="end_date" displayText="End Date">12-2000</Field>
+					<Field name="company" displayText="Company">Univeristy of NSW</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Founder</Field>
+					<Field name="summary" displayText="Summary">Dr Michael Harries is
+						Senior Director and Chief Technologist for the Citrix Startup
+						Accelerator, finding and coaching early stage companies through
+						seed stage. He is a member of the Citrix CTO Office, and brings
+						new influences and opportunities to the Citrix leadership team.
+
+						Michael has over 20 years of software leadership, including 10
+						years in the leadership team of the Citrix Labs organization, one
+						of the most successful applied research laboratories guiding both
+						company strategy from single-product company to multi-product
+						company , and product lines. During this time he has been
+						responsible for high level strategy, for analysis and strategic
+						championing of new initiatives, for company-wide product ideas
+						process, and for educating Citrix employees about long term and
+						emerging technology trends.
+
+						Prior to joining Citrix, Michael was involved with several Australian
+						based startups, including his own, applying machine learning to
+						various domains. He has been a computer consultant and an
+						academic. Michael has a PhD in Computer Science, specializing in
+						Machine Learning from Univerisity of NSW, Australia, and a
+						Bachelors degree in Economics from University of Sydney,
+						Australia.
+					</Field>
+					<Field name="start_date" displayText="Start Date">1994</Field>
+					<Field name="end_date" displayText="End Date">1999</Field>
+					<Field name="company" displayText="Company">ImpSys</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of New South
+						Wales</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Artificial
+						Intelligence and Machine Learning</Field>
+					<Field name="start_date" displayText="Start Date">1992</Field>
+					<Field name="end_date" displayText="End Date">2000</Field>
+					<Field name="degree" displayText="Degree">Ph.D.</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">University of Sydney
+					</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Economics</Field>
+					<Field name="end_date" displayText="End Date">1988</Field>
+					<Field name="degree" displayText="Degree">B.Ec</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Paul</Field>
+					<Field name="last_name" displayText="Last Name">Martine</Field>
+					<Field name="headline" displayText="Headline">CIO at Citrix</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Information Technology and
+						Services</Field>
+					<Field name="num_connections" displayText="Connections">165</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="picture_url" displayText="Picture URL">http://media.linkedin.com/mpr/mprx/0_8LXTPsaCt19URqlxa3LOP4yyKv_nUBhxGbrOPJYy7KBQk1c02iqSjMotYRiW4K3PT66xyY2YZsrq
+					</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/paul-martine/4/86a/46a
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">CIO</Field>
+					<Field name="start_date" displayText="Start Date">11-1999</Field>
+					<Field name="company" displayText="Company">Citrix</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Branch Sales Director</Field>
+					<Field name="start_date" displayText="Start Date">10-1996</Field>
+					<Field name="end_date" displayText="End Date">11-1999</Field>
+					<Field name="company" displayText="Company">Lucent Technologies</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">Technical Specialist</Field>
+					<Field name="start_date" displayText="Start Date">7-1985</Field>
+					<Field name="end_date" displayText="End Date">10-1996</Field>
+					<Field name="company" displayText="Company">AT&amp;T Bell Laboratories
+					</Field>
+				</Object>
+				<Object name="educations" displayText="Education">
+					<Field name="school_name" displayText="School Name">Kean University</Field>
+					<Field name="field_of_study" displayText="Field Of Study">Computer Science
+					</Field>
+					<Field name="start_date" displayText="Start Date">1978</Field>
+					<Field name="end_date" displayText="End Date">1982</Field>
+					<Field name="degree" displayText="Degree">BS</Field>
+				</Object>
+			</Application>
+			<Application name="linkedin">
+				<Object name="person" displayText="Person">
+					<Field name="first_name" displayText="First Name">Michael</Field>
+					<Field name="last_name" displayText="Last Name">Emerson</Field>
+					<Field name="headline" displayText="Headline">IT Director at Citrix
+					</Field>
+					<Field name="location" displayText="Location">Miami/Fort Lauderdale Area
+					</Field>
+					<Field name="industry" displayText="Industry">Computer Software</Field>
+					<Field name="num_connections" displayText="Connections">105</Field>
+					<Field name="num_recommenders" displayText="Number of Recommenders">0</Field>
+					<Field name="public_profile_url" displayText="Public Profile URL">http://www.linkedin.com/pub/michael-emerson/1/b81/b1
+					</Field>
+				</Object>
+				<Object name="positions" displayText="Position">
+					<Field name="title" displayText="Title">IT Director</Field>
+					<Field name="start_date" displayText="Start Date">2001</Field>
+					<Field name="company" displayText="Company">Citrix Systems</Field>
+				</Object>
+			</Application>
+		</Message>
+	</Messages>
+</CMN>

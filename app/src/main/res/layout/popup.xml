@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/message_field"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Please select an Option"
+            android:textColor="#9c9b96"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="What do you want to do?"
+            android:textColor="#9c9b96"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonMoveSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="Move from here"
+            android:textColor="#1682f0"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/viewMove"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonViewSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="View details"
+            android:textColor="#1682f0"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/viewView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonConfirmSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:visibility="gone"
+            android:minHeight="40dp"
+            android:text="Confirm Schedule"
+            android:textColor="#1682f0"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/viewConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonEditSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="Edit schedule"
+            android:textColor="#1682f0"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/viewEdit"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonDeleteSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="Delete schedule"
+            android:textColor="#1682f0"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/viewDelete"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9c9b96" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="Cancel"
+            android:textColor="#9c9b96"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fieldrow_itemlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_below="@+id/dashboard_mainText"
+        android:background="@android:color/white"
+        android:contentDescription="@string/about_text_1"
+        android:focusable="false"
+        android:paddingBottom="12dp"
+        android:paddingTop="0dp"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/dashboard_mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:lines="1"
+        style="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/dashboard_subscript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:lines="1"
+            android:background="@android:color/holo_green_dark"
+            android:singleLine="true"
+            android:text="Update"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dividerL"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:padding="1dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/editImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:src="@drawable/edit" />
+
+   
+
+</RelativeLayout>

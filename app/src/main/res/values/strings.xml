@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoreyHealth</string>
+    <string name="app_version">5.17</string>
+
+    <string name="tag_line">Make \nHealthcare \n– \nMobile, \nEfficient,\nCoordinated</string>
+    <string name="sensePhoneNumberText">Phone</string>
+    <string name="senseEmailText">EmailAddress</string>
+    <string name="senseAddressText">BillingCity</string>
+    <string name="consumerKey">3MVG9QDx8IX8nP5QZaDPLcCZJnfUuA0LIctkfcE2h9tg9Vo7NttogQYb.2iQ7YwUIP1_PeUHrkf8wTFVcO7UT</string>
+    <string name="callbackUrl">sfdcsample:success</string>
+    <string name="view_linkedin_profile"><u>View full profile in Linkedin</u></string>
+    <string name="signup">Sign up</string>
+    <string name="signin">Sign in</string>
+    <string name="organization_hint">Organization name</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="org_hint">Organization</string>
+    <string name="admin">Make user administrator </string>
+    <string name="stafffname_hint">Name</string>
+    <string name="phoneno_hint">Phone number</string>
+    <string name="invite">Send Invitation</string>
+    <string name="radioname">Staff Name</string>
+    <string name="radiogroupname">Create LoginID using: </string>
+    <string name="radiophone">Phone number</string>
+    <string name="radioemail">Email Address</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="search_contacts">Invite from Address Book</string>
+    <string name="mobilize_the_cloud">Corey</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="messagelist_header1">Instant Knowledge</string>
+    <string name="messagelist_header2">Schedule</string>
+    <string name="messagelist_header3">Phone Calls</string>
+    <string name="optionsmenu_signout">Sign out</string>
+    <string name="optionsmenu_app_settings">Application Settings</string>
+    <string name="optionsmenu_general_Settings">General Settings</string>
+    <string name="optionsmenu_help">Help</string>
+    <string name="retrieving_messages_dialog">Retrieving messages from server</string>
+    <string name="signing_in_dialog">Signing in</string>
+    <string name="signing_up_dialog">Signing up</string>
+    <string name="signup_title_help_dialog">Sign up help</string>
+    <string name="signin_title_help_dialog">Sign in help</string>
+    <string name="try_again_dialog">Try again</string>
+    <string name="password_mismatch">Passwords do not match. Please enter password again.</string>
+    <string name="empty_input_fields">Input fields can not be empty.Please enter valid details</string>
+    <string name="no_internet_connection">Operation cannot be performed now.Check if your cellular data/wifi is turned ON.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="grant_access">Grant access</string>
+    <string name="skip">Skip</string>
+    <string name="cont">Continue</string>
+    <string name="app_version_info">Corey™ version %1$s\nCopyright Core Mobile, Inc.\n U.S. Patent No. 8,606,923</string>
+
+    <string name="login_help_title">Login Help [ver %1$s]</string>
+    <string name="company_name">Core Mobile, Inc.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="free_trial">Free Trial</string>
+    <string name="outlook_auth_help">If you need help, please contact support@coremobileinc.com or ask your IT team for your Outlook web access HTTP address.</string>
+    <string name="credentials_needed">%1$s Credentials Needed</string>
+    <string name="auth_success">%1$s Authorization Successful</string>
+    <string name="auth_failure">%1$s Authorization Failed</string>
+    <string name="auth_denied">%1$s Authorization Denied</string>
+    <string name="authorize_app">Authorize %1$s Access</string>
+    <string name="reauthorize_app">Re-authorize %1$s Access</string>
+
+    <!-- demo contexts related -->
+    <string name="messagelist_header4">Trackers</string>
+    <string name="messagelist_header5">Location</string>
+    <string name="messagelist_header6">Coreyfy</string>
+    <string name="messagelist_header7">To Do</string>
+    <string name="demo_ml_location">Location based information</string>
+    <string name="demo_ml_trackers">Information on what you are tracking</string>
+    <string name="demo_ml_coreyfy">Coreyfy your context</string>
+    <string name="demo_ml_todo">Coreyfy your To Do List</string>
+    <string name="demo_db_location">Just the relevant information based on your location</string>
+    <string name="demo_db_trackers">Just the relevant information regarding what you are tracking</string>
+    <string name="demo_db_coreyfy">Specify your context and get just the relevant information</string>
+    <string name="demo_db_todo">Input your To Do List by typing or speaking to Corey</string>
+    <string name="touch_for_info">Touch here for more info</string>
+    <!-- Meritus CNM_Pcp related -->
+    <string name="pcp_search">Search</string>
+    <string name="pcp_location">Location</string>
+
+    <!-- shared preference key -->
+    <string name="deviceid">deviceId</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="organization">organization</string>
+    <string name="email">email</string>
+    <string name="devicetype">devicetype</string>
+    <string name="baseurl">baseurl</string>
+    <string name="android">Android</string>
+    <string name="new_user">newuser</string>
+    <string name="user_signed_in">usersignedin</string>
+
+    <!-- json strings -->
+    <string name="result">result</string>
+    <string name="result_text">text</string>
+    <string name="location">location</string>
+    <string name="enable_push">enable_push</string>
+    <string name="enable_weekly_auto_sync">enable_weekly_auto_sync</string>
+    <string name="auto_delete_past_meeting">auto_delete_past_meeting</string>
+    <string name="meeting_reminder">meeting_reminder</string>
+
+    <!-- pick features dialog -->
+    <string name="pf_dlg_title">Corey Features</string>
+    <string name="pf_dlg_msg">Corey provides relevant information based on calendar, location, phone calls and trackers.\n\nPlease allow Corey to access information from:</string>
+    <string name="pf_dlg_calendar">Calendar</string>
+    <string name="pf_dlg_contacts">Contacts</string>
+    <string name="pf_dlg_location">Location</string>
+    <string name="pf_dlg_phonecalls">Phone calls</string>
+
+    <!-- instant gratificaiton dialog -->
+    <string name="sc_dlg_title">Sync with server</string>
+    <string name="sc_dlg_msg">This action will begin Sync operation in the background. You will be notified once the update operation has completed. Do you wish to continue?</string>
+
+    <!-- instant gratificaiton dialog -->
+    <string name="td_dlg_title">Sync with server</string>
+    <string name="td_dlg_msg">This action will begin Todo Sync operation in the background. You will be notified once the update operation has completed. Do you wish to continue?</string>
+
+    <!-- location sync dialog -->
+    <string name="ls_dlg_title">Location Sync</string>
+    <string name="ls_dlg_msg">Corey requires access to your current location information to perform location sync.\n\nDo you allow Corey to access your current location?</string>
+    <string name="ls_no_location">Unable to find location.</string>
+
+    <!-- general settings dialog -->
+    <string name="gs_dlg_title">Confirm changes to settings</string>
+
+    <!-- about dialog -->
+    <string name="about_text_1">Corey™, the only application that delivers just the relevant actionable information from Social media, Cloud, Big Data and Enterprise applications to your mobile device</string>
+    <string name="about_text_2">Core Mobile Inc. provides the latest innovations in context based personalization of information in real time for busy mobile professionals in Financial services, Healthcare, Manufacturing, pharmaceutical and hospitality industry. www.coremobileinc.com</string>
+
+    <!-- missing credentials dialog -->
+    <string name="mc_dlg_title">Credentials Required</string>
+    <string name="mc_dlg_msg">Corey requires application credentials to provide you with one-touch instant access to most relevant information.\n\nDo you want to enter the application credentials now?</string>
+
+    <!-- use or demo dialog -->
+    <string name="ud_dlg_msg">Are you ready to use Corey or would you like to see a demo of Corey?</string>
+    <string name="ud_dlg_yes">Demo Only</string>
+    <string name="ud_dlg_no">Start Using Corey</string>
+
+    <!-- pick calendars dialog -->
+    <string name="pc_dlg_title">Pick calendars for the demo</string>
+
+    <!-- demo preparation failed dialog -->
+    <string name="df_dlg_title">Demo praparation failed</string>
+    <string name="df_dlg_msg">Corey could not create a demo for you as it could not find appropriate events in yout local calendar.</string>
+
+    <!-- pick profile dialog -->
+    <string name="pp_dlg_title">Pick a profile to view</string>
+
+    <!-- start using Corey dialog -->
+    <string name="uc_dlg_msg">Are you ready to use Corey?</string>
+    <string name="to_coreyfy">To Coreyfy</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_phone_call">PhoneCallActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_status_adapter">StatusAdapter</string>
+    <string name="title_activity_emr">EMRActivity</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- sync related -->
+    <string name="sync_req_failed">Sync request failed</string>
+    <string name="sync_status_check_failed">Sync status check failed</string>
+    <string name="pull_req_failed">Pull request failed</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="add_new_note">Add New Note</string>
+    <string name="title_activity_add_staff">AddStaffActivity</string>
+    <string name="main_empty_list">There is no recent conversation, write new message
+		to start one.</string>
+    <string name="title_activity_patient_analytics">PatientAnalyticsActivity</string>
+    <!-- Picture upload -->
+    <string name="upload_images">Upload Images</string>
+    <string name="image_comments">Enter comments</string>
+    <string name="title_activity_change_pcp">ChangePcp</string>
+    <string name="title_activity_multi_select">MultiSelectActivity</string>
+    <string name="title_activity_my_location">MyLocation</string>
+
+    <!-- Location Search -->
+    <string name="location_search">Finding the location</string>
+    <string name="title_activity_pcp_result">PcpResultActivity</string>
+    <string name="title_activity_pcp_result_detail">PcpResultDetailActivity</string>
+    <string name="title_activity_add_patient">AddPatientActivity</string>
+    <string name="title_activity_child_icon">ChildIconActivity</string>
+
+    <!-- Provider Search -->
+    <string name="pcp_spl_title_text">SPECIALITY</string>
+    <string name="pcp_network_title_text">NETWORK</string>
+    <string name="spl_spl_title_text">SPECIALITY</string>
+    <string name="pcp_gender_title_text">GENDER</string>
+    <string name="pcp_open_newpatient_title_text">OPEN TO NEW PATIENTS?</string>
+    <string name="pcp_hosp_priv_title_text">HOSPITAL PRIVALAGES</string>
+    <string name="pcp_distance_title_text">DISTANCE</string>
+    <string name="pcp_lang_title_text">LANGUAGE</string>
+    <string name="pcp_board_cert_title_text">BOARD CERTIFIED</string>
+    <string name="pcp_fname_hint">FIRST NAME</string>
+    <string name="pcp_lname_hint">LAST NAME</string>
+    <string name="pcp_city_hint">CITY</string>
+    <string name="pcp_offname_hint">OFFICE NAME/MEDICAL GROUP</string>
+    <string name="radiopcp">PCP</string>
+    <string name="radiospl">SPECIALIST</string>
+    <string name="postalcode">ZIP CODE</string>
+    <string name="title_activity_sum_menu">SumMenuActivity</string>
+
+
+    <!-- Added by Nitij (Messaging Feature) -->
+    <string name="messages">Messages</string>
+
+    <string name="reminders">Reminders</string>
+    <string name="addreminders">New Reminders</string>
+    <string name="response">Response</string>
+    <string name="message_send">Send</string>
+    <string name="message_cancel">Cancel</string>
+
+    <string name="analytics">Analytics</string>
+
+    <string name="wearablesdata">Wearable Data</string>
+    <string name="wearablesdata_stepscount">Steps Count</string>
+    <string name="view_survey">Survey</string>
+
+    <string-array name="times_array">
+        <item>12:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="addepro">Add ePROs</string>
+    <string name="epro">ePROs</string>
+    <string name="options">Options</string>
+
+    <string name="patient_activity_log">Patient Activity Log</string>
+
+
+    <string name="view_journal_text">Journal</string>
+    <string name="view_add_journal_text">Add Journal</string>
+    <string name="journal_details_text">Journal Details</string>
+
+
+    <string name="upload_text">Upload Image</string>
+    <string name="title">Title</string>
+    <string name="description">Description(Optional)</string>
+    <string name="send">Send</string>
+    <string name="txt_download">Download</string>
+    <string name="title_activity_cmn__journal">CMN_JournalActivity</string>
+    <string name="title_activity_cmn__add_journal">CMN_AddJournalActivity</string>
+    <string name="title_activity_journal_display">JournalDisplayActivity</string>
+
+
+    <string name="view_image_detail">Image Detail</string>
+    <string name="view_upload_images">Patient uploaded images</string>
+    <string name="view_upload_text">Upload Image</string>
+    <string name="title_activity_crash">CrashActivity</string>
+
+    <string name="title_activity_epro_response_list">EproResponseListActivity</string>
+    <string name="title_activity_cmn__epro_details">CMN_EproDetailsActivity</string>
+
+
+    <!-- Material Calendar -->
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <string name="calendar_previous">previous</string>
+    <string name="calendar_next">next</string>
+    <string name="saved_event_image">saved event image</string>
+    <string name="title_activity_view_schedule">ViewScheduleActivity</string>
+    <string name="title_activity_cmn__display_view_survey_log">CMN_DisplayViewSurveyLog</string>
+
+    <string name="title_view_survey_log">Survey Log</string>
+    <string name="title_view_survey_form">View Survey Form</string>
+
+    <string name="title_activity_re_un_invite">ReUnInviteActivity</string>
+    <string name="title_activity_cmn__patient_display">CMN_PatientDisplayActivity</string>
+    <string name="title_activity_survey_form">SurveyFormActivity</string>
+    <string name="title_activity_cmn__my_patient">CMN_MyPatientActivity</string>
+
+</resources>

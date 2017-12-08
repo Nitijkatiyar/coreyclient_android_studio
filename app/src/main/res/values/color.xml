@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0066CC</color>
+    <color name="blue2">#3399FF</color>
+    <color name="layout_background">#FFFFFF</color>
+    <color name="font">#ffffff</color>
+    <color name="header_text">#92cd32</color>
+    <color name="header_background">#663300</color>
+    <color name="dashboard_subscript">#999999</color>
+    <color name="textview_background">#80999999</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_background_gray">#E0E0E0</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="dark_green">#339966</color>
+    <color name="button_blue">#143956</color>
+
+
+
+    <color name="title_bar_bg">#007399</color>
+    <!-- options @color/blue #0099cc #0086b3 #33b5e5 -->
+    <color name="header_bg">#33b5e5</color>
+
+    <color name="li_text_color_main">#58585b</color>
+    <color name="li_text_color_subscript">#7b7b7b</color>
+
+    <!-- mli -> message list item -->
+    <color name="mli_newmsg_bg">#ffffffff</color>
+    <color name="mli_readmsg_bg">#ffeeeeee</color>
+    <color name="msg_list_bg">#f9f9f9</color>
+
+    <color name="orange">#f2a049</color>
+    
+        <color name="OrderLiv_red">#B40404</color>
+    <color name="settings_background_dark">#ff2d2d2d</color>
+     
+     
+     <!-- Message screen definitions -->
+    
+        <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    
+    <color name="textColor">#FFF</color>
+	<color name="textFieldColor">#000</color>
+	<color name="textShadow">#FFF</color>
+	<color name="listViewBg">#DADFEE</color>
+
+	<color name="sendLightColor">#8897BF</color>
+	<color name="sendMeduimColor">#5D6CA5</color>
+	<color name="sendDarkColor">#515F9F</color>
+
+	<color name="barDarkColor">#CECECE</color>
+	<color name="barMeduimColor">#DFDEE0</color>
+	<color name="barLightColor">#F2F2F2</color>
+	
+	 <!-- child icon screen definitions -->
+    
+     <color name="holo_green_lght">#ff99cc00</color>
+     <color name="holo_blue_lght">#00ffd2</color>
+     
+       <!-- Meritus color definitions -->
+    <color name="meritus_green_dark">#00C1D5</color>
+    
+      <!-- CoreyOr color definitions -->
+    <color name="or_red">#ee0000</color>
+    <color name="or_yellow">#ead61c</color> 
+    
+     <!-- Added by Nitij (Messaging Feature) -->
+    <color name="messaging_headerbackground">#255da7</color>
+
+    <color name="warning_color">#f4511e</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+
+    <color name="text_blue_color">#0b96b5</color>
+
+    <!-- Material Calendar -->
+    <color name="calendar_month_text_color">@android:color/holo_blue_dark</color>
+    <color name="calendar_day_text_color">@android:color/darker_gray</color>
+    <color name="calendar_current_number_text_color">@android:color/holo_blue_dark</color>
+    <color name="calendar_number_text_color">#ff000000</color>
+    <color name="current_day_selector_color">@android:color/holo_green_light</color>
+    <color name="saved_event_selector_color">@android:color/holo_blue_bright</color>
+    <color name="saved_events_empty_color">@android:color/darker_gray</color>
+
+    <color name="table_header_text">#CCFFFFFF</color>
+    <color name="table_data_row_even">#11C5CAE9</color>
+    <color name="table_data_row_odd">#33C5CAE9</color>
+    <color name="table_price_low">#FF2E7D32</color>
+    <color name="table_price_high">#FFC62828</color>
+    <color name="primary">#008895</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.coremobile.CMN_AddJournalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Journal:"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/journaltextVw"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/noteEditTextVw"
+        android:hint="Add Here"
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/journaltextVw"
+        android:gravity="start"
+        android:textColor="#000000"
+        android:maxLines="10"
+        android:scrollbars="vertical"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveButtonVw"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:layout_below="@+id/noteEditTextVw"
+
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

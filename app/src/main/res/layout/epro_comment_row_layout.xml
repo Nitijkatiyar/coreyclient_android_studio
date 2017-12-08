@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <TextView
+        android:id="@+id/dateTextVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+
+
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:gravity="right"
+
+            android:textColor="#000000"
+            android:id="@+id/responseTextVw"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id ="@+id/commentTextVw"
+            android:maxLines="5"
+            android:textSize="13sp"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:gravity="start"
+            />
+</LinearLayout>

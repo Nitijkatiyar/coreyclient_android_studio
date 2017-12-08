@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/li_padding_bottom"
+    android:paddingLeft="@dimen/li_padding_left"
+    android:paddingRight="@dimen/li_padding_right"
+    android:paddingTop="@dimen/li_padding_top" >
+<LinearLayout
+    	android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:ellipsize="end"
+      android:focusable="false"
+        android:maxLines="1"
+        android:textColor="@color/li_text_color_main"
+        android:textSize="@dimen/normal_text_size"
+        android:textStyle="bold" />
+
+<TextView
+        android:id="@+id/txtnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/secondary_text_size"
+        
+        android:textStyle="italic" 
+        
+        android:text="New"
+        android:visibility="gone" />
+   </LinearLayout>
+
+    <com.coremobile.coreyhealth.widget.CoreyEditText
+        android:id="@+id/line2edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"
+        
+        
+        android:cursorVisible="true"
+        android:ellipsize="end"
+        android:imeOptions="actionDone"
+   
+       
+        android:textColor="@color/li_text_color_subscript"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:textSize="@dimen/secondary_text_size" />
+     
+     <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"
+        
+        
+        android:ellipsize="end"
+        
+        android:maxLines="3"
+        android:textColor="@color/li_text_color_subscript"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:textSize="@dimen/secondary_text_size" 
+        android:visibility="gone" />
+     
+    <AutoCompleteTextView
+            android:id="@+id/lin2editauto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginTop="@dimen/li_txt_padding_top"
+            android:completionThreshold ="1"
+            android:inputType="text|textNoSuggestions"
+            
+            
+        	android:cursorVisible="true"
+        	android:textCursorDrawable="@drawable/cursor_edit"        	
+        	
+        	android:imeOptions="actionDone"
+           android:maxLines="3"
+            android:textSize="@dimen/normal_text_size"
+            android:paddingBottom="0dp"
+            android:background="#00000000"
+            android:visibility="gone"
+        />
+     <Spinner
+        android:id="@+id/pcpSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/line4"
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:visibility="gone" />
+     
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+       android:focusable="false"
+        android:focusableInTouchMode="false"       
+        android:src="@drawable/edit_icon"/>
+
+   
+
+    <View
+        android:id="@+id/dividerL"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:padding="1dp" />
+
+</RelativeLayout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layoutheader" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/header" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:paddingLeft="@dimen/margin_left"
+            android:paddingRight="@dimen/margin_right"
+            android:paddingTop="@dimen/margin_top" >
+
+            <!-- center content -->
+
+            <RelativeLayout
+                android:id="@+id/setting1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/track_location_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Track Location"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/track_location_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/reminder_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Reminder(in Minutes)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <EditText
+                    android:id="@+id/reminder_edittext"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="70dp"
+                    android:layout_toRightOf="@id/reminder_textview"
+                    android:cursorVisible="false"
+                    android:freezesText="true"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting3"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/numplanahead_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Plan Ahead Meetings count"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <EditText
+                    android:id="@+id/numplanahead_edittext"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/numplanahead_textview"
+                    android:cursorVisible="false"
+                    android:freezesText="true"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting6"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/push_notification_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Push Notification"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/push_notification_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting2"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/auto_purge_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Auto-Purge old data"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/auto_purge_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting4"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/auto_sync_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Weekly Auto-sync"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/auto_sync_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting5"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/ignore_appointments_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Ignore Appointments"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/ignore_appointments_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting7"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Phone Calls"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/phone_calls_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting9"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Location Sync"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <CheckBox
+                    android:id="@+id/location_sync_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <!-- footer -->
+
+            <Button
+                android:id="@+id/settings_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting10"
+                android:layout_marginTop="@dimen/group_gap"
+                android:text="Submit"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/settings_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settings_submit"
+                android:text="Cancel"
+                android:textSize="@dimen/btn_text_size" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/bulletPoint"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/messaging_headerbackground" />
+
+    <TextView
+        android:id="@+id/messageFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bulletPoint"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:text="65a4sfasf"
+        android:textColor="@color/textFieldColor"
+        android:textSize="@dimen/message_from_text_size" />
+
+    <TextView
+        android:id="@+id/messageTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageFrom"
+        android:layout_toRightOf="@id/bulletPoint"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:text="65a4sfasf"
+        android:textColor="@color/textFieldColor"
+        android:textSize="@dimen/message_topic_text_size" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageTopic"
+        android:layout_toRightOf="@id/bulletPoint"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:text="65a4sfasf"
+        android:textColor="@color/counter_text_color"
+        android:textSize="@dimen/message_message_text_size" />
+
+    <TextView
+        android:id="@+id/messageTimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageText"
+        android:layout_toRightOf="@id/bulletPoint"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:text="65a4sfasf"
+        android:textColor="@color/counter_text_color"
+        android:textSize="@dimen/message_time_text_size" />
+
+    <ImageView
+        android:id="@+id/messageArrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/arrowforward" />
+
+</RelativeLayout>

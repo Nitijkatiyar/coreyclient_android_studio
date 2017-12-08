@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="#f2f2f2"
+
+    android:weightSum="2"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.9">
+    <TextView
+        android:id="@+id/nameTextVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:maxLines="1"
+        android:text="Name:"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:ellipsize="marquee"
+        android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/DOSTextVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:maxLines="1"
+            android:text="DOS:"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:ellipsize="marquee"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/surgeonTextVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:maxLines="1"
+            android:text="Surgeon:"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:ellipsize="marquee"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dobTextVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:maxLines="1"
+            android:text="Name:"
+            android:textColor="#000000"
+            android:padding="5dp"
+
+            android:ellipsize="marquee"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+        <CheckBox
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/checkVw"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".1"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            />
+</LinearLayout>

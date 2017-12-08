@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/reminderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/reminderResponseYes"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text=""
+        android:textColor="@color/counter_text_bg"
+        android:textSize="@dimen/btn_text_size"  />
+
+    <TextView
+        android:id="@+id/reminderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/reminderName"
+        android:layout_toLeftOf="@+id/reminderResponseYes"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textColor="@color/counter_text_bg"
+        android:textSize="@dimen/normal_text_size" />
+
+    <ImageView
+        android:id="@+id/reminderResponseYes"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_greencheck"/>
+    <ImageView
+        android:id="@+id/reminderResponseNo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_redcross"/>
+
+</RelativeLayout>

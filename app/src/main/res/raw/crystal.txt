@@ -1,0 +1,357 @@
+{"Crystal":
+    {"Help":"New Users :\nNew users can create a free account by choosing an user name and password, followed by pressing the \"Create Free Account\" button.\n\nExisting Users : \nUsers who have already registered can reach the login screen by pressing the grayed-out \"Sign-in\" button. \n\nIf you have an account and have forgotten the password, click the link labeled \"Forgot Your Password?\": your password will be sent to the email address provided when the account was created.",
+        "Organization":[
+                     {"Help":"This is the Dashboard screen wherein all the relevant data from Outlook, Sales Force and LinkedIn are correlated and presented in a dashboard format highlighting the most important fields. Company name is extracted from the Outlook Subject and a relevant subset of information about that Company is obtained from the User’s SalesForce Account. The subset is configurable by the user by logging in at \nhttp://www.mobilizethecloud.net/cmn\n\nOnce data is retrieved, this screen presents only the most important fields. Pressing the application icon, will display the Details screen where all the subset data will be displayed. This screen displays following fields\n\nOutlook\n    Time of meeting\n    Meeting Subject\n    List of Attendees\n\nSalesForce\n    Company Name\n    Open Case Details\n    Contact\n\nLinkedIn\n    Full Name\n    Occupation",
+                     "@attributes":
+                     {"name":"Citrix Systems",
+                     "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/citrix.jpg"},
+                     "Application":[
+                                    {"@attributes":
+                                    {"name":"Outlook",
+                                    "displayText":"Microsoft Outlook",
+                                    "domain":"",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/outlook.jpg"},
+                                    "Help":"In order to begin correlating the information for an upcoming meeting, the user must have Outlook Web Access (OWA). If you don’t have OWA access, please check with your administrator to enable this feature.\n\nWith OWA enabled, enter the following details:\n   1.Outlook username\n   2.Outlook Password\n   3.OWA HTTP Address of your Exchange server",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"traditional",
+                                    "credentialCount":"3",
+                                    "hint":"Please enter your Outlook email address, password and OWA HTTP address below."},
+                                    "Help":"In order to begin correlating the information for an upcoming meeting, the user must have Outlook Web Access (OWA). If you don’t have OWA access, please check with your administrator to enable this feature.\n\nWith OWA enabled, enter the following details:\n   1.Outlook username\n   2.Outlook Password\n   3.OWA HTTP Address of your Exchange server",                                    
+                                    "credential":[
+                                                  {"@attributes":
+                                                  {"name":"appUsername",
+                                                  "displayText":"Outlook email address",
+                                                  "secured":"0"}},
+                                                  {"@attributes":
+                                                  {"name":"appPassword",
+                                                  "displayText":"Outlook password",
+                                                  "secured":"1"}},
+                                                  {"@attributes":
+                                                  {"name":"appContext",
+                                                  "displayText":"OWA HTTP Address",
+                                                  "secured":"0",
+                                                  "default":"https://mail.citrix.com"}}]},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"0"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Calendar"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"2"},
+                                    "Row":[
+                                           {"@attributes":
+                                           {"number":"1"},
+                                           "Main":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"2",
+                                           "text":"[calendar/subject]"}},
+                                           "Subscript":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"2",
+                                           "text":"[calendar/Starttime] - [calendar/Endtime]"}}},
+                                           {"@attributes":
+                                           {"number":"2"},
+                                           "Main":
+                                           {"@attributes":
+                                           {"dynamic":"0",
+                                           "maxLines":"1",
+                                           "text":"Attendees"}},
+                                           "Subscript":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"3",
+                                           "text":"[calendar/attendee]"}}}]}}},
+                                    {"@attributes":
+                                    {"name":"SalesForce",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/salesforce.jpg",
+                                    "domain":""},
+                                    "Help":"Help",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"traditional",
+                                    "credentialCount":"3",
+                                    "hint":"Please enter your Salesforce Username, password and security key below."},
+                                    "Help":"Help",                                    
+                                    "credential":[
+                                                  {"@attributes":
+                                                  {"name":"appUsername",
+                                                  "displayText":"Salesforce username",
+                                                  "secured":"0"}},
+                                                  {"@attributes":
+                                                  {"name":"appPassword",
+                                                  "displayText":"Salesforce password",
+                                                  "secured":"1"}},
+                                                  {"@attributes":
+                                                  {"name":"appContext",
+                                                  "displayText":"Salesforce Security key",
+                                                  "secured":"0"}}]},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"opportunity"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Opportunities"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[opportunity/name]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"Amount: [opportunity/amount]\\nContact: [opportunity/accountname]"}}},""]}}},
+                                    {"@attributes":
+                                    {"name":"News",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/news.jpg",
+                                    "domain":""},
+                                    "Help":"Help",
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"articles"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"News Feed"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[articles/title]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[articles/source]"}}},""]}}},
+                                    {"@attributes":
+                                    {"name":"LinkedIn",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/linkedin.jpg",
+                                    "domain":""},
+                                    "Help":"Help",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"oauth"},
+                                     "Help":"In order to fetch subset of correlated information from varoius data sources, our app must login to these applications using your account credentials. A relatively new technology called OAuth helps in a more secured authentication. \nLinkedIn Web Services supports this authentication technology & we use the same to let you authorize our application to access data on your behalf. \nPlease note that with the help of OAuth, LinkedIn manages your account details & our Sales Crystal application will depend on LinkedIn's authorization for secured account management."},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"person"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Attendees"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"1",
+                                            "text":"[person/first_name] [person/last_name]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"3",
+                                            "text":"[person/headline]\\n[person/location]"}}},""]}}}]},
+                     {"Help":"This is the Dashboard screen wherein all the relevant data from Outlook, Microsoft Dynamics CRM and LinkedIn are correlated and presented in a dashboard format highlighting the most important fields. Company name is extracted from the Outlook Subject and a relevant subset of information about that Company is obtained from the User’s Dynamics CRM Account. The subset is configurable by the user by logging in at \nhttp://www.mobilizethecloud.net/cmn\n\nOnce data is retrieved, this screen presents only the most important fields. Pressing the application icon, will display the Details screen where all the subset data will be displayed. This screen displays following fields\n\nOutlook\n    Time of meeting\n    Meeting Subject\n    List of Attendees\n\nMicrosoft Dynamics CRM\n    Company Name\n    Open Case Details\n    Contact\n\nLinkedIn\n    Full Name\n    Occupation",
+                     "@attributes":
+                     {"name":"NEI",
+                     "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/nei.jpg"},
+                     "Application":[
+                                    {"@attributes":
+                                    {"name":"Outlook",
+                                    "displayText":"Microsoft Outlook",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/outlook.jpg",
+                                    "domain":"NEI"},
+                                    "Help":"In order to begin correlating the information for an upcoming meeting, the user must have Outlook Web Access (OWA). If you don’t have OWA access, please check with your administrator to enable this feature.\n\nWith OWA enabled, enter the following details:\n   1.Outlook username\n   2.Outlook Password\n   3.OWA HTTP Address of your Exchange server",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"traditional",
+                                    "credentialCount":"3",
+                                    "hint":"Please enter your Outlook email address, password and OWA HTTP address below."},
+                                    "Help":"In order to begin correlating the information for an upcoming meeting, the user must have Outlook Web Access (OWA). If you don’t have OWA access, please check with your administrator to enable this feature.\n\nWith OWA enabled, enter the following details:\n   1.Outlook username\n   2.Outlook Password\n   3.OWA HTTP Address of your Exchange server",                                    
+                                    "credential":[
+                                                  {"@attributes":
+                                                  {"name":"appUsername",
+                                                  "displayText":"Outlook email address",
+                                                  "secured":"0"}},
+                                                  {"@attributes":
+                                                  {"name":"appPassword",
+                                                  "displayText":"Outlook password",
+                                                  "secured":"1"}},
+                                                  {"@attributes":
+                                                  {"name":"appContext",
+                                                  "displayText":"OWA HTTP Address",
+                                                  "secured":"0",
+                                                  "default":"https://mail.nei.com"}}]},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"0"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Calendar"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"2"},
+                                    "Row":[
+                                           {"@attributes":
+                                           {"number":"1"},
+                                           "Main":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"2",
+                                           "text":"[calendar/subject]"}},
+                                           "Subscript":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"2",
+                                           "text":"[calendar/Starttime] - [calendar/Endtime]"}}},
+                                           {"@attributes":
+                                           {"number":"2"},
+                                           "Main":
+                                           {"@attributes":
+                                           {"dynamic":"0",
+                                           "maxLines":"1",
+                                           "text":"Attendees"}},
+                                           "Subscript":
+                                           {"@attributes":
+                                           {"dynamic":"1",
+                                           "maxLines":"3",
+                                           "text":"[calendar/attendee]"}}}]}}},
+                                    {"@attributes":
+                                    {"name":"Dynamics",
+                                    "displayText":"Microsoft CRM",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/dynamics.jpg",
+                                    "domain":"networkengines"},
+                                    "Help":"In order to fetch subset of correlated information from varoius data sources, our app must login to these applications using your account credentials. A relatively new technology called OAuth helps in a more secured authentication. But, unfortunately not all applications support it now. Our applicaiton will make use of OAUTH once the data source applications such as Dynamics CRM supports it officially. \nTill we get the OAuth support, Please enter the following information\n\n 1.User’s Dynamics CRM Login name\n 2.Dynamics CRM Password\n 3.Dynamics CRM URL\n",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"traditional",
+                                    "credentialCount":"3",
+                                    "hint":"Please enter your Username, password and Microsoft Dynamics CRM HTTP URL"},
+                                    "Help":"In order to fetch subset of correlated information from varoius data sources, our app must login to these applications using your account credentials. A relatively new technology called OAuth helps in a more secured authentication. But, unfortunately not all applications support it now. Our applicaiton will make use of OAUTH once the data source applications such as Dynamics CRM supports it officially. \nTill we get the OAuth support, Please enter the following information\n\n 1.User’s Dynamics CRM Login name\n 2.Dynamics CRM Password\n 3.Dynamics CRM URL\n",                                    
+                                    "credential":[
+                                                  {"@attributes":
+                                                  {"name":"appUsername",
+                                                  "displayText":"Microsoft CRM Username",
+                                                  "secured":"0"}},
+                                                  {"@attributes":
+                                                  {"name":"appPassword",
+                                                  "displayText":"Microsoft CRM Password",
+                                                  "secured":"1"}},
+                                                  {"@attributes":
+                                                  {"name":"appContext",
+                                                  "displayText":"Microsoft CRM HTTP Address",
+                                                  "secured":"0",
+                                                  "default":"https://crm.networkengines.com"}}]},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"opportunity"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Opportunities"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[opportunity/name]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"Revenue: [opportunity/estimatedvalue]\\nContact: [calendar/createdby]"}}},""]}}},
+                                    {"@attributes":
+                                    {"name":"News",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/news.jpg",
+                                    "domain":""},
+                                    "Help":"Help",
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"articles"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"News Feed"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[articles/title]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"2",
+                                            "text":"[articles/publish_date]"}}},""]}}},
+                                    {"@attributes":
+                                    {"name":"LinkedIn",
+                                    "img":"http://www.mobilizethecloud.net/serverintegration_appstore/resources/linkedin.jpg",
+                                    "domain":""},
+                                    "Help":"Help",
+                                    "Authentication":
+                                    {"@attributes":
+                                    {"type":"oauth"},
+                                    "Help":"Help"},
+                                    "QSubset":
+                                    {"@attributes":
+                                    {"rolling":"1",
+                                    "selectObject":"person"},
+                                    "Headline":
+                                    {"@attributes":
+                                    {"dynamic":"0",
+                                    "text":"Attendees"}},
+                                    "Rows":
+                                    {"@attributes":
+                                    {"count":"10"},
+                                    "Row":[
+                                            {"@attributes":
+                                            {"number":"1"},
+                                            "Main":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"1",
+                                            "text":"[person/first_name] [person/last_name]"}},
+                                            "Subscript":
+                                            {"@attributes":
+                                            {"dynamic":"1",
+                                            "maxLines":"3",
+                                            "text":"[person/headline]\\n[person/location]"}}},""]}}}]}]}}

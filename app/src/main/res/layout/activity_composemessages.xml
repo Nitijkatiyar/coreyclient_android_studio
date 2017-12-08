@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/toLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="To:"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <TextView
+                android:id="@+id/message_to"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <ImageView
+                android:id="@+id/message_Selectto"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="Home Button"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/addicon" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/counter_text_color" />
+
+        <LinearLayout
+            android:id="@+id/patientLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Patient:"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <TextView
+                android:id="@+id/message_patient"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <TextView
+                android:id="@+id/message_patienttext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/message_Selectfrom"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="Home Button"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/dropdown" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/counter_text_color" />
+
+        <LinearLayout
+            android:id="@+id/subjectLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="Subject:"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <TextView
+                android:id="@+id/message_subject"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/counter_text_color"
+                android:textSize="@dimen/message_from_text_size" />
+
+            <ImageView
+                android:id="@+id/message_Selectsubject"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="Home Button"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/dropdown" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Secure Messaging Using Corey"
+            android:textColor="#00c"
+            android:textSize="@dimen/message_from_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/counter_text_color" />
+
+        <EditText
+            android:id="@+id/message_editfield"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/message_from_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

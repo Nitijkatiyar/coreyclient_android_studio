@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_bar"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/holo_green_lght" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/counter_text_color"></View>
+
+            <TextView
+                android:id="@+id/textView_monthname"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:maxLength="3"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/counter_text_color"></View>
+    </LinearLayout>
+</LinearLayout>

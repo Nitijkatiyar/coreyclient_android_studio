@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coremobile.coreyhealth">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <!-- REQUIRED PERMISSIONS (for Urban Airship GCM) -->
+    <!-- GCM requires a Google account. -->
+    <!--
+    meritus
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <!-- This app has permission to register with GCM and receive message -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- MODIFICATION REQUIRED - Replace "com.urbanairship.push.sample" with your package name -->
+    <permission
+        android:name="com.coremobile.coreyhealth.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.coremobile.coreyhealth.permission.C2D_MESSAGE" />
+    <!-- The two elements above ensure that only this application can receive the messages and registration result -->
+    <!-- END Urban Airship Required Permissions -->
+    <!-- REQUIRED -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+    meritus
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+
+    <!--
+   meritus
+   <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.WAKE_LOCK" />
+    -->
+    <!-- Accessing camera hardware -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="com.coremobile.coreyhealth.permission" />
+
+    <permission android:name="com.coremobile.coreyhealth.permission" />
+
+    <!--
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    -->
+
+
+    <!--  -->
+    <!-- REQUIRED for C2DM -->
+    <!-- Only this application can receive the messages and registration result -->
+
+    <uses-permission android:name="com.coremobile.coreyhealth.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive message -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+   Meritus
+   <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+   </uses-permission>
+
+   <uses-permission android:name="android.permission.READ_CALENDAR" />
+    -->
+    <application
+        android:name="com.coremobile.coreyhealth.MyApplication"
+        android:allowClearUserData="true"
+        android:enabled="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+         &lt;!&ndash; enable for USE_GCM &ndash;&gt;
+         <meta-data
+             android:name="com.google.android.gms.version"
+             android:value="@integer/google_play_services_version" />
+        -->
+        <activity
+            android:name="com.coremobile.coreyhealth.Home"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.coremobile.coreyhealth.DatabaseProvider"
+            android:authorities="com.coremobile.coreyhealth.databaseprovider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.coremobile.coreyhealth.SigninActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.SigninWithFingerprintActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.SplashScreen"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <!--
+             <activity
+             android:name=".Dashboard"
+             android:screenOrientation="portrait" />
+        -->
+        <activity
+            android:name="com.coremobile.coreyhealth.SignupActivityCMN"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SIGNUP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coremobile.coreyhealth.DetailedApplicationData"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+         <activity
+             android:name=".DetailSalesforce"
+             android:launchMode="singleInstance"
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="adjustPan"></activity>
+         <activity
+             android:name=".LinkedinDetailedActivity"
+             android:screenOrientation="portrait"></activity>
+        -->
+        <activity
+            android:name="com.coremobile.coreyhealth.newui.MessageTabActivityCMN"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+            <!-- android:screenOrientation="portrait" -->
+            <intent-filter>
+                <action android:name="com.for.view" />
+            </intent-filter>
+        </activity>
+
+        <!-- General Settings activity -->
+        <activity
+            android:name="com.coremobile.coreyhealth.GeneralSettingsActivityCMN"
+            android:screenOrientation="portrait" />
+
+        <!-- About activity -->
+        <activity
+            android:name="com.coremobile.coreyhealth.AboutActivityCMN"
+            android:screenOrientation="portrait" />
+
+        <!-- Application settings activities -->
+        <activity
+            android:name="com.coremobile.coreyhealth.AuthenticationActivityCMN"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.SalesforceOAuthActivity"
+            android:permission="com.coremobile.coreyhealth.permission"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.coremobile.coreyhealth.SForceOauth" />
+
+        <!-- Google Oauth Activity -->
+        <activity
+            android:name="com.coremobile.coreyhealth.GoogleOauthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.OAuthRequestActivityCMN"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- LinkedIn OAUTH activities -->
+
+        <service android:name="com.coremobile.coreyhealth.DownloadMessageService" />
+        <!-- Manifest changes for C2DM -->
+
+
+        <!-- REQUIRED -->
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <receiver android:name="com.urbanairship.CoreReceiver" >
+
+            <category android:name="coreypatientnt" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- REQUIRED for C2DM and Hybrid -->
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <receiver
+            android:name="com.urbanairshi1Gpush.GCMPushReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="coreypatientnt" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- REQUIRED -->
+        <!--
+             The 'android:process' parameter is optional. Set it to a value starting
+            with a colon (:) to make it run in a separate, private process
+        -->
+        <!-- <service android:name="com.urbanairship.push.PushService" /> -->
+        <!-- android:process=":com.urbanairship.push.process" /> -->
+        <!-- added      2 service  start -->
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <service
+            android:name="com.urbanairship.push.PushService"
+            android:label="Push Notification Service" />
+        -->
+
+
+        <!-- REQUIRED only with UA Android lib version 2.1.4 and earlier. Do not include PushWorkerService with UA Android lib version 3.0.0+ since it has been deprecated -->
+        <!--
+             <service android:name="com.urbanairship.push.PushWorkerService"
+				 android:label="Push Notification Worker Service"/>
+        -->
+
+
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <service
+            android:name="com.urbanairship.analytics.EventService"
+            android:label="Event Service" />
+        -->
+        <!-- added      2 service  end -->
+
+
+        <!-- added      1 provider start -->
+        <!-- This is required for persisting preferences related to push and location -->
+        <!-- MODIFICATION REQUIRED - Use your package name + ".urbanairship.provider" in the android:authorities -->
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <provider
+            android:name="com.urbanairship.UrbanAirshipProvider"
+            android:authorities="coreypatientnt.urbanairship.provider"
+            android:exported="false"
+            android:multiprocess="true" />
+        -->
+        <!--
+             OPTIONAL, if you want to receive push, push opened and registration
+            completed intents
+        -->
+        <!--
+        enable for USE_URBAN_AIRSHIP
+        <receiver android:name=".IntentReceiver" >
+            <intent-filter>
+                <action android:name="com.urbanairship.push.PUSH_RECEIVED" />
+
+                <category android:name="coreypatientnt" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.urbanairship.push.NOTIFICATION_OPENED" />
+
+                <category android:name="coreypatientnt" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.urbanairship.push.REGISTRATION_FINISHED" />
+
+                <category android:name="coreypatientnt" />
+
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- enable for USE_GCM -->
+        <receiver
+            android:name="com.coremobile.coreyhealth.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.coremobile.coreyhealth" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.coremobile.coreyhealth.GCMIntentService"
+            android:label="GCM Push Handler Service" />
+
+        <!--
+        <receiver android:name="com.urbanairship.push.GCMPushReceiver"
+			android:permission="com.google.android.c2dm.permission.SEND">
+				<intent-filter>
+						<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+						<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+
+						<category android:name="com.coremobile.corey" />
+		</intent-filter>
+          </receiver>
+        <receiver android:name="com.urbanairship.push.NotificationOpenedReceiver"/>
+        -->
+
+        <activity
+            android:name="com.coremobile.coreyhealth.WebViewActivityCMN"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <!--
+                <activity
+                android:name=".ScheduleActivity"
+                android:label="@string/title_activity_schedule"></activity>
+        -->
+        <activity
+            android:name="com.coremobile.coreyhealth.PhoneCallActivityCMN"
+            android:label="@string/title_activity_phone_call" />
+        <!--
+           <activity
+               android:name=".CalenderActivity"
+               android:label="@string/title_activity_main"></activity>
+           <activity
+               android:name="coreysalesStatusAdapter"
+               android:label="@string/title_activity_status_adapter"></activity>
+        -->
+        <activity
+            android:name="com.coremobile.coreyhealth.MedicationDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity
+            android:name="com.coremobile.coreyhealth.AutoFeedbackDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.coremobile.coreyhealth.SyncAssignment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+        <activity
+            android:name="com.coremobile.coreyhealth.AddStaffActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.newui.MessageActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.PatientAnalyticsActivityCMN"
+            android:label="@string/title_activity_patient_analytics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.newui.CMN_ImageUploadActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.coremobile.coreyhealth.newui.CMN_ImageDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.coremobile.coreyhealth.GridImageActivityCMN"
+            android:label="@string/upload_images"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.ImagePickerActivityCMN"
+            android:label="@string/upload_images"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.ChangePcp"
+            android:label="@string/title_activity_change_pcp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.MultiSelectActivityCMN"
+            android:label="@string/title_activity_multi_select"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.RatingSelectActivityCMN"
+            android:label="@string/title_activity_multi_select"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.coremobile.coreyhealth.MyLocation"
+            android:label="@string/title_activity_my_location" />
+        <activity
+            android:name="com.coremobile.coreyhealth.AddPatientActivityCMN"
+            android:label="@string/title_activity_add_patient"
+            android:parentActivityName="com.coremobile.coreyhealth.BaseActivityCMN">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.coremobile.coreyhealth.BaseActivityCMN" />
+        </activity>
+        <activity
+            android:name="com.coremobile.coreyhealth.newui.ChildIconActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.SumMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.messaging.CMN_NeworViewMessagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.messaging.CMN_ToUserListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.messaging.CMN_MessageReplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.analytics.CMN_DrawAnalyticsGraphActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.analytics.CMN_AnalyticsChildsActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.patientreminders.RemindersTypeActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.patientreminders.RemindersActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.patientreminders.PatientRemindersActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.providerreminders.ProviderRemindersActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.patientreminders.PatientResponseActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.providerreminders.AddNewReminderActivityCMN"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.providerreminders.AddReminderInputDataActivityCMN"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true"
+            android:permission="com.coremobile.coreyhealth.permission">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/analytics_global_config" />
+
+        <activity
+            android:name="com.coremobile.coreyhealth.googleFit.CMN_StepsCountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.googleFit.CMN_WearableDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.genericviewandsurvey.CMN_ViewSurveyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.genericviewandsurvey.CMN_GenericViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignmentsActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignNursestoORActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignPACUNursesActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignPatienttoORActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignPreOpNursesActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignSpecialitytoORActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AutoAssignmentsActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.ChangeAssignmentsbyStaffActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.ChangeAssignmentsbyPatientActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.FacilitywiseAssignmentActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.AssignCRNAtoORActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.SelectPatientsActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.nativeassignment.SelectFacilityProviderActivityCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.googleAnalytics.CMN_YoutubeVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.native_epro.CMN_EproListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.native_epro.CMN_AddNewEproActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.native_epro.CMN_Epro_number_of_options"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.native_epro.CMN_DependentePROsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.patientactivitylog.ShowActivityLogCMN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.journal.CMN_AddJournalActivity"
+            android:label="@string/title_activity_cmn__journal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.journal.CMN_JournalActivity"
+            android:label="@string/title_activity_cmn__journal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.journal.JournalDisplayActivity"
+            android:label="@string/title_activity_journal_display"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.eproresponses.CMN_EproResponseListActivity"
+            android:label="@string/title_activity_epro_response_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.eproresponses.CMN_EproDetailsActivity"
+            android:label="@string/title_activity_cmn__epro_details"
+            android:screenOrientation="portrait" />
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8e3d395aa62a60c0e814601e6613b1e284c96c11" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.coremobile.coreyhealth.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.SurgerySchedulingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.SpecialitySchedulingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.ModalitySchedulingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.RequestScheduleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.PatientLookupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupByDateofProcedure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupByExistingPatient"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupBySurgeonandPatient"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupByPatientName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupByAnonymizedPatientId"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.LookupByMobilePhoneNumber"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.schedulingcalender.CalenderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.ViewScheduleActivity"
+            android:label="@string/title_activity_view_schedule" />
+
+
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.ViewScheduleListActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.coremobile.coreyhealth.uninvite_reinvite.CMN_ReUnInviteActivity"
+            android:label="@string/title_activity_re_un_invite"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.coremobile.coreyhealth.uninvite_reinvite.CMN_PatientDisplayActivity"
+            android:label="@string/title_activity_cmn__patient_display"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.coremobile.coreyhealth.surveylog.CMN_ViewSurveyLogActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.coremobile.coreyhealth.surveylog.SurveyFormActivity"
+            android:label="@string/title_activity_survey_form"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.coremobile.coreyhealth.scheduling.CMN_PatientOnDeviceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.coremobile.coreyhealth.mypatients.CMN_MyPatientActivity"
+            android:label="@string/title_activity_cmn__my_patient"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.coremobile.coreyhealth.surgeonschedule.SurgeonScheduleActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+        <receiver
+            android:name="com.coremobile.coreyhealth.Checkfornotification.CMN_AlarmReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.coremobile.coreyhealth.Checkfornotification.PendingNotificationService"
+            android:stopWithTask="true"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

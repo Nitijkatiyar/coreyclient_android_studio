@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:layout_below="@id/line1"
+        android:background="#6cf"
+        android:padding="2dp"
+        >
+        <com.coremobile.coreyhealth.widget.TouchyWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_new_note"
+            android:inputType="text|textNoSuggestions"
+            android:lines="1"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/primary_text_light" 
+            android:textSize="@dimen/normal_text_size">
+
+        <requestFocus />
+    </EditText>
+</LinearLayout>

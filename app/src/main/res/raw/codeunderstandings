@@ -1,0 +1,61 @@
+For Initial data loading and storing:
+classes to use : SplashActivity
+                 MyApplication
+
+For LHS menu :
+classes to use : NoItemController
+                 IContextController
+                 ContextController
+                 ContextControllerFactory
+                 AllItemAdapter
+                 NavDrawerManager
+                 IContextController
+                 ContextData
+                 Manual sync : SyncTriggerTask
+                 ContextController : for Child item click
+
+For RHS menu :
+classes to use : ContextMenuItemFactory
+                 IContextMenuItem
+                 ContextData
+
+
+For PartialSync :
+classes to use : MsgScheduleTabActivity
+                 MessageTabActivity
+                 GetAllContextWebService
+                 PatientContext
+
+For Child Grid items :
+classes to use : ChildIconActivity
+                 ChildIconAdapter
+
+
+For GenericView Implementation :
+classes to use : GenericViewActivity
+                 GenerateGenericViewComponent
+                 GenerateAttributeModel
+                 GenerateCategoriesModel
+                 GenerateFieldModel
+                 GenerateListValuesModel
+                 JsonConstants
+                 ViewFieldModel
+
+For Survey Feature Implementation :
+classes to use : ViewSurveyActivity
+                 GenerateViewComponent
+                 GenerateAttributeModel
+                 GenerateCategoriesModel
+                 GenerateFieldModel
+                 GenerateListValuesModel
+                 JsonConstants
+                 ViewFieldModel
+
+For Assignment Feature :
+classes to use : please look into "nativeassignment" package
+
+For Message Feature :
+classes to use : please look into "messaging" package
+
+For Reminder Feature :
+classes to use : please look into "patinetreminder" and "providerreminders" package

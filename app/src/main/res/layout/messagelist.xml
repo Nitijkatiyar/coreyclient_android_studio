@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background" >
+
+    <!-- header -->
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layoutheader" />
+
+    <LinearLayout
+        android:id="@+id/containerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:orientation="vertical" >
+
+        <!-- instant knowledge -->
+
+        <RelativeLayout
+            android:id="@+id/header1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#80999999"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/instant_knowledge_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header1"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg"
+            android:visibility="gone" />
+
+        <!-- plan ahead -->
+
+        <RelativeLayout
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="#80999999" >
+
+            <Button
+                android:id="@+id/plan_ahead_button"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header2"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/instant_gratification_refresh"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/refresh_2" />
+
+            <ProgressBar
+                android:id="@+id/sync_indicator"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="30dip"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- phone calls -->
+
+        <RelativeLayout
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="#80999999" >
+
+            <Button
+                android:id="@+id/phone_calls_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header3"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- trackers -->
+
+        <Button
+            android:id="@+id/trackers_button"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="@string/messagelist_header4"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- location -->
+
+        <RelativeLayout
+            android:id="@+id/header5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="#80999999" >
+
+            <Button
+                android:id="@+id/location_button"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header5"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/location_sync"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/refresh_2"
+                android:gravity="center"
+                android:onClick="MyLocationsync"/>
+
+            <ProgressBar
+                android:id="@+id/location_progress"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="30dip"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- corefy ahead -->
+
+        <RelativeLayout
+            android:id="@+id/header6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="#80999999" >
+
+            <Button
+                android:id="@+id/coreyfy_button"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header6"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_corefy"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_corefy"
+                android:gravity="center"
+                android:onClick="corefy" />
+            <!-- android:background="@drawable/ic_corefy" -->
+
+            <ProgressBar
+                android:id="@+id/corefy_progress"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="30dip"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- To Do -->
+
+        <RelativeLayout
+            android:id="@+id/header7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="#80999999" >
+
+            <Button
+                android:id="@+id/todo_button"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:text="@string/messagelist_header7"
+                android:textColor="@color/pure_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/todo_gratification_refresh"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/refresh_2"
+                android:onClick="todo" />
+
+            <ProgressBar
+                android:id="@+id/todo_sync_indicator"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="30dip"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <!-- Assignments -->
+
+        <Button
+            android:id="@+id/assignments_button"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Medication History"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <Button
+            android:id="@+id/preop_manager"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Assignments"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <Button
+            android:id="@+id/addprovider"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Add provider"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg" />
+
+        <Button
+            android:id="@+id/addpatient"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Add patients"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Provide Feedback"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/additionalbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Provide Feedback"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/additionalbutton2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/header_bg"
+            android:gravity="center"
+            android:text="Provide Feedback"
+            android:textColor="@color/pure_white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/msg_list_bg"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

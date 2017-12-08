@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/relative1"
+        >
+
+        <EditText
+            android:id="@+id/myFilter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/searchBtnVw"
+
+            android:hint="Enter text to search"
+            android:maxLines="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/survey_editbackground"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="16sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBtnVw"
+            android:layout_alignParentRight="true"
+            android:text="Filter"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_background_new"/>
+    </RelativeLayout>
+        <ListView android:id="@+id/listView1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80000000"
+        android:id="@+id/dimView"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#e3e3e3"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/relative1"
+        android:id="@+id/relativeFilterLayoutVw">
+        <ListView
+            android:id="@+id/filterListVw"
+            android:cacheColorHint="#00000000"
+            android:scrollbars="vertical"
+            android:fadingEdge="vertical"
+            android:soundEffectsEnabled="true"
+            android:dividerHeight="1px"
+            android:padding="5dip"
+            android:smoothScrollbar="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:drawSelectorOnTop="false"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/filterListVw">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/okBtn"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_background_new"
+                android:text="OK"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:id="@+id/cancelBtn"
+                android:background="@drawable/button_background_new"
+                android:text="Cancel"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+

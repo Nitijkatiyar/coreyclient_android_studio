@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ok_button"
+        android:layout_below="@+id/input_search">
+
+        <LinearLayout
+            android:id="@+id/data_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/empty"
+            style="@style/TransparentButtonBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/li_padding_left"
+            android:paddingRight="@dimen/li_padding_right"
+            android:paddingTop="10dp"
+            android:text="No data available"
+            android:textSize="@dimen/normal_text_size"
+            android:visibility="gone"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

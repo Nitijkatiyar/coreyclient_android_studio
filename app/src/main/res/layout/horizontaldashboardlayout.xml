@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical"
+    android:weightSum="1.0" >
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/app1Data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/app2Data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/app3Data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/app4Data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/app1Img"
+                android:layout_width="160dip"
+                android:layout_height="40dip"
+                android:clickable="true"
+                android:src="@drawable/icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/app1Heading"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dashboard_hdr_height"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Patient Info"
+                android:textColor="@color/layout_background"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/app1Data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/app1empty"
+                style="@style/TransparentButtonBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <ImageView
+                android:id="@+id/app2Img"
+                android:layout_width="160dip"
+                android:layout_height="40dip"
+                android:src="@drawable/icon"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dashboard_hdr_height"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/app2Heading"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Visits"
+                    android:textColor="@color/layout_background"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/app2Edit"
+                    style="@style/TransparentButtonBase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/app2Data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/app2empty"
+                style="@style/TransparentButtonBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/app3Img"
+                android:layout_width="160dip"
+                android:layout_height="40dip"
+                android:src="@drawable/icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/app3Heading"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dashboard_hdr_height"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Past History"
+                android:textColor="@color/layout_background"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/app3Data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/app3empty"
+                style="@style/TransparentButtonBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/app4Img"
+                android:layout_width="160dip"
+                android:layout_height="40dip"
+                android:src="@drawable/icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/app4Heading"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dashboard_hdr_height"
+                android:background="@color/header_bg"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Orders or Charges"
+                android:textColor="@color/layout_background"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/app4Data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/app4empty"
+                style="@style/TransparentButtonBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

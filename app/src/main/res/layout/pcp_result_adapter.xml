@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/li_padding_bottom"
+    android:paddingLeft="@dimen/li_padding_left"
+    android:paddingRight="@dimen/li_padding_right"
+    android:paddingTop="@dimen/li_padding_top" >
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+        android:ellipsize="end"
+      android:focusable="false"
+        android:maxLines="1"
+        
+        android:textColor="@color/li_text_color_main"
+        android:textSize="@dimen/normal_text_size"
+        android:textStyle="bold" />
+
+     
+     <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="@dimen/li_padding_top"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"      
+        
+        android:ellipsize="end"        
+       
+        android:textColor="@color/li_text_color_subscript"       
+        android:textSize="@dimen/normal_text_size" 
+       android:textStyle="bold" />
+      <TextView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="1dp"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"      
+        
+        android:ellipsize="end"        
+        
+        android:textColor="@color/li_text_color_subscript"       
+        android:textSize="@dimen/secondary_text_size" 
+        android:visibility="gone" />
+     <TextView
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"      
+        
+        android:ellipsize="end"        
+       
+        android:textColor="@color/li_text_color_subscript"       
+        android:textSize="@dimen/secondary_text_size" 
+        android:visibility="gone" />
+   <TextView
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:textCursorDrawable="@drawable/cursor_edit"      
+        
+        android:ellipsize="end"        
+      
+        android:textColor="@color/li_text_color_subscript"       
+        android:textSize="@dimen/secondary_text_size" 
+        android:visibility="gone" />
+   <Spinner
+        android:id="@+id/pcpresultspinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/line4"
+        android:layout_marginTop="@dimen/li_txt_padding_top"
+        android:background="#00000000"
+        android:visibility="gone" />
+
+   
+
+    <View
+        android:id="@+id/dividerL"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:padding="1dp" />
+
+</RelativeLayout>

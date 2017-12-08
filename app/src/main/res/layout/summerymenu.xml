@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:id="@+id/summary_row0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/sum_row0"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/row0_disp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/row0_rightimage1"
+
+                android:layout_toRightOf="@+id/row0_leftimage1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:maxLines="5"
+                android:textColor="@color/li_text_color_main"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/row0_leftimage1"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/patient" />
+
+
+            <ImageView
+                android:id="@+id/row0_rightimage1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/right_arrow"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="0dp">
+
+        <RelativeLayout
+            android:id="@+id/btn_lyt1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/menu_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/btn_rightimage1"
+                android:layout_toRightOf="@+id/btn_leftimage1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:maxLines="1"
+                android:text="Patients"
+                android:textColor="@color/li_text_color_main"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/dividerL"
+                android:layout_width="match_parent"
+                android:layout_height="5.5dp"
+                android:background="@android:color/darker_gray"
+                android:padding="1dp" />
+
+            <ImageView
+                android:id="@+id/btn_leftimage1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/patient" />
+
+            <ImageView
+                android:id="@+id/btn_rightimage1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/right_arrow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_lyt2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/menu_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/btn_rightimage2"
+
+                android:layout_toRightOf="@+id/btn_leftimage2"
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:maxLines="1"
+                android:text="Messages"
+                android:textColor="@color/li_text_color_main"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/dividerL1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray"
+                android:padding="1dp" />
+
+            <ImageView
+                android:id="@+id/btn_leftimage2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:id="@+id/msgcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:paddingLeft="45dp"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/btn_rightimage2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/right_arrow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_lyt3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/menu_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/btn_rightimage3"
+                android:layout_toRightOf="@+id/btn_leftimage3"
+
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:maxLines="1"
+                android:text="Analytics"
+                android:textColor="@color/li_text_color_main"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/dividerL2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray"
+                android:padding="1dp" />
+
+            <ImageView
+                android:id="@+id/btn_leftimage3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/analytics" />
+
+            <ImageView
+                android:id="@+id/btn_rightimage3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:src="@drawable/right_arrow" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

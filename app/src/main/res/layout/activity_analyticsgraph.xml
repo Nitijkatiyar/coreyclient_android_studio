@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textNoData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="all"
+        android:gravity="center"
+        android:text=""
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/bar_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/vbarChart">
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/hbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Missed"
+            android:textSize="18sp"></TextView>
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/listLayout"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@android:color/holo_green_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="Completed"
+                android:textSize="16sp"></TextView>
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="Missed"
+                android:textSize="16sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listLayout"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title"
+            android:gravity="bottom">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:divider="@color/counter_text_bg"></ListView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/hbar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/listLayout"
+            android:gravity="bottom"
+            android:orientation="vertical"></LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/pi_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/table_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/dougnut_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+
+</LinearLayout>

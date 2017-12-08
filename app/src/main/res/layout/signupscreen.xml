@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background_gray"
+    >
+
+    <!-- header -->
+    <include layout="@layout/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <!-- footer footer -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/background_icon"
+    />
+    <Button
+        android:id="@+id/coremobilenetworks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/company_name"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_marginLeft="@dimen/ctrl_margin_left"
+        android:layout_marginRight="@dimen/ctrl_margin_right"
+        android:layout_marginBottom="@dimen/btn_gap"
+        style="@style/TransparentButton"
+    />
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/coremobilenetworks"
+        android:text="@string/contact_us"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_marginLeft="@dimen/ctrl_margin_left"
+        android:layout_marginRight="@dimen/ctrl_margin_right"
+        style="@style/TransparentButton"
+    />
+
+    <!-- center content -->
+    <LinearLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:layout_above="@id/contactus"
+        android:layout_marginLeft="@dimen/ctrl_margin_left"
+        android:layout_marginRight="@dimen/ctrl_margin_right"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <EditText
+            android:id="@+id/signup_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_hint"
+            android:imeOptions="actionNext"
+            android:inputType="text|textNoSuggestions"
+            android:lines="1"
+            android:textSize="@dimen/normal_text_size"
+        />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="@dimen/text_gap"
+        />
+
+        <EditText
+            android:id="@+id/signup_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="@dimen/text_gap"
+        />
+
+        <EditText
+            android:id="@+id/signup_emailaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_address_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:lines="1"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="@dimen/text_gap"
+        />
+
+        <com.coremobile.coreyhealth.widget.InstantCompleteTextView
+            android:id="@+id/signup_companyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/organization_hint"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions"
+            android:lines="1"
+            android:textSize="@dimen/normal_text_size"
+            android:text="@string/free_trial"
+            android:layout_marginTop="@dimen/text_gap"
+            android:textColor="@android:color/primary_text_light"
+        />
+
+        <Button
+            android:id="@+id/signup_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/group_gap"
+        />
+
+        <Button
+            android:id="@+id/signup_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signin"
+            android:textSize="@dimen/btn_text_size"
+            android:layout_marginTop="@dimen/btn_gap"
+        />
+    </LinearLayout>
+
+</RelativeLayout>
